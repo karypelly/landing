@@ -1043,7 +1043,12 @@ const Landing = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
-                  onClick={() => setShowAboutKary(true)}
+                  onClick={() => {
+                    setShowAboutKary(true);
+                    window.requestAnimationFrame(() => {
+                      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+                    });
+                  }}
                   className="px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center"
                 >
                   See How I Teach
