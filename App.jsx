@@ -633,10 +633,10 @@ const Landing = () => {
               {/* Private Tutoring */}
               {ongoingTab === "private" && (
                 <div>
-                  <div className="grid md:grid-cols-2 gap-8 mb-12">
+                  <div className="max-w-2xl mb-12">
                     <div className="bg-gray-50 border border-gray-200 rounded-lg p-8">
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Individual Sessions</h3>
-                      <p className="text-4xl font-bold text-gray-900 mb-1">$90 <span className="text-lg text-gray-600">per hour + HST</span></p>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Individual Private Tutoring</h3>
+                      <p className="text-4xl font-bold text-gray-900 mb-1"><span className="text-lg text-gray-600">Starting at </span>$75 <span className="text-lg text-gray-600">per hour + HST</span></p>
                       <p className="text-sm text-gray-600 mb-8">Book sessions as needed</p>
                       
                       <ul className="space-y-3 mb-8 flex-grow">
@@ -657,30 +657,6 @@ const Landing = () => {
                       <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Book individual sessions</a>
                     </div>
 
-                    <div className="bg-white border-2 border-blue-600 rounded-lg p-8">
-                      <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded mb-4">Best value</div>
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Monthly Support Plan</h3>
-                      <p className="text-4xl font-bold text-gray-900 mb-1">$349 <span className="text-lg text-gray-600">per month + HST</span></p>
-                      <p className="text-sm text-gray-600 mb-8">Billed monthly, cancel anytime</p>
-                      
-                      <ul className="space-y-3 mb-8 flex-grow">
-                        {[
-                          "Regular 1-on-1 instruction with a clear roadmap",
-                          "Personalized practice between sessions",
-                          "App access and skill-level tracking",
-                          "Consistent habits and accountability",
-                          "Each session responds to actual progress",
-                          "Best for steady, measurable development"
-                        ].map((item, i) => (
-                          <li key={i} className="flex items-start gap-3">
-                            <span className="text-blue-600 font-bold mt-0.5">✓</span>
-                            <span className="text-gray-700">{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                      
-                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Build consistent progress</a>
-                    </div>
                   </div>
 
                   {/* Premium - Private */}
@@ -692,8 +668,8 @@ const Landing = () => {
                       <div className="flex items-center gap-3">
                         <span className="text-2xl">✨</span>
                         <div className="text-left">
-                          <p className="font-semibold text-gray-900">Complete Progress Program</p>
-                          <p className="text-sm text-gray-600">A complete environment for consistent semester or year-long progress</p>
+                          <p className="font-semibold text-gray-900">Private Tutoring Packages</p>
+                          <p className="text-sm text-gray-600">Packages starting at $75/hour for consistent semester or year-long progress</p>
                         </div>
                       </div>
                       <ChevronDown 
@@ -765,15 +741,15 @@ const Landing = () => {
               {/* Group Tutoring */}
               {ongoingTab === "group" && (
                 <div>
-                  <div className="grid md:grid-cols-2 gap-8 mb-12">
+                  <div className="max-w-2xl mb-12">
                     <div className="bg-gray-50 border border-gray-200 rounded-lg p-8">
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Small Group Sessions</h3>
-                      <p className="text-4xl font-bold text-gray-900 mb-1">$49 <span className="text-lg text-gray-600">per student/hour + HST</span></p>
-                      <p className="text-sm text-gray-600 mb-8">For 2-3 students at similar level</p>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Group Tutoring</h3>
+                      <p className="text-4xl font-bold text-gray-900 mb-1"><span className="text-lg text-gray-600">Starting at </span>$38 <span className="text-lg text-gray-600">per student/hour + HST</span></p>
+                      <p className="text-sm text-gray-600 mb-8">Up to four students per tutor (maximum 1:4 ratio)</p>
                       
                       <ul className="space-y-3 mb-8 flex-grow">
                         {[
-                          "Targeted instruction for a matched small group",
+                          "Targeted instruction for a matched group",
                           "A shared goal with room for individual support",
                           "Flexible scheduling",
                           "Peer momentum and coached practice",
@@ -789,30 +765,6 @@ const Landing = () => {
                       <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Book group sessions</a>
                     </div>
 
-                    <div className="bg-white border-2 border-blue-600 rounded-lg p-8">
-                      <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded mb-4">Best value</div>
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Monthly Support Plan</h3>
-                      <p className="text-4xl font-bold text-gray-900 mb-1">$199 <span className="text-lg text-gray-600">per student/month + HST</span></p>
-                      <p className="text-sm text-gray-600 mb-8">Billed monthly, cancel anytime</p>
-                      
-                      <ul className="space-y-3 mb-8 flex-grow">
-                        {[
-                          "Regular tutoring with a well-matched peer group",
-                          "Personalized practice between sessions",
-                          "App access and individual skill tracking",
-                          "Peer momentum, participation, and accountability",
-                          "Teaching responds to group and individual progress",
-                          "Best for students who learn well alongside others"
-                        ].map((item, i) => (
-                          <li key={i} className="flex items-start gap-3">
-                            <span className="text-blue-600 font-bold mt-0.5">✓</span>
-                            <span className="text-gray-700">{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                      
-                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Join the monthly group plan</a>
-                    </div>
                   </div>
 
                   {/* Premium - Group */}
@@ -824,7 +776,7 @@ const Landing = () => {
                       <div className="flex items-center gap-3">
                         <span className="text-2xl">✨</span>
                         <div className="text-left">
-                          <p className="font-semibold text-gray-900">Complete Group Progress Program</p>
+                          <p className="font-semibold text-gray-900">Group Tutoring Packages</p>
                           <p className="text-sm text-gray-600">A structured peer environment for semester or year-long progress</p>
                         </div>
                       </div>
