@@ -943,7 +943,7 @@ const Landing = () => {
             </div>
           </div>
 
-          <p className="text-lg text-gray-700 leading-relaxed max-w-2xl">Traditional tutoring often focuses on the hour itself. Our approach also looks at what happens between sessions: what the student practices, which individual skills are improving, and what should be targeted next. That is how tutoring gets better.</p>
+          <p className="text-lg text-gray-700 leading-relaxed max-w-2xl">Traditional tutoring often focuses on the hour itself. Our approach also looks at what happens between sessions: what the student practises, which individual skills are improving, and what should be targeted next. That is how tutoring gets better.</p>
         </div>
       </section>
 
