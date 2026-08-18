@@ -679,7 +679,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Book individual sessions</a>
+                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Book individual sessions</a>
                     </div>
 
                   </div>
@@ -787,7 +787,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Book group sessions</a>
+                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Book group sessions</a>
                     </div>
 
                   </div>
