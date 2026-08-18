@@ -472,7 +472,7 @@ const Landing = () => {
                       ))}
                     </ul>
                     
-                    <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Get your child's private plan</a>
+                    <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Get your child's private plan</a>
                   </div>
                 </div>
 
@@ -498,7 +498,7 @@ const Landing = () => {
                     </ul>
                     
                     <p className="text-sm text-gray-600 mb-8 pb-8 border-b border-gray-200">Best for friends at a similar level who benefit from shared momentum. Choose private for a deeper individual diagnosis.</p>
-                    <a href="/book" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Build momentum together</a>
+                    <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Build momentum together</a>
                   </div>
                 </div>
               </div>
@@ -547,7 +547,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="/book" className="block w-full px-6 py-3 bg-amber-600 text-white font-medium rounded hover:bg-amber-700 text-center">Book semester package</a>
+                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-amber-600 text-white font-medium rounded hover:bg-amber-700 text-center">Book semester package</a>
                     </div>
 
                     <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-300 rounded-lg p-8">
@@ -575,7 +575,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="/book" className="block w-full px-6 py-3 bg-orange-600 text-white font-medium rounded hover:bg-orange-700 text-center">Book year package</a>
+                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-orange-600 text-white font-medium rounded hover:bg-orange-700 text-center">Book year package</a>
                     </div>
                   </div>
                 )}
@@ -634,7 +634,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="/book" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Book individual sessions</a>
+                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Book individual sessions</a>
                     </div>
 
                     <div className="bg-white border-2 border-blue-600 rounded-lg p-8">
@@ -659,7 +659,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Build consistent progress</a>
+                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Build consistent progress</a>
                     </div>
                   </div>
 
@@ -707,7 +707,7 @@ const Landing = () => {
                             ))}
                           </ul>
                           
-                          <a href="/book" className="block w-full px-6 py-3 bg-amber-600 text-white font-medium rounded hover:bg-amber-700 text-center">Book semester package</a>
+                          <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-amber-600 text-white font-medium rounded hover:bg-amber-700 text-center">Book semester package</a>
                         </div>
 
                         <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-300 rounded-lg p-8">
@@ -734,7 +734,7 @@ const Landing = () => {
                             ))}
                           </ul>
                           
-                          <a href="/book" className="block w-full px-6 py-3 bg-orange-600 text-white font-medium rounded hover:bg-orange-700 text-center">Book year package</a>
+                          <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-orange-600 text-white font-medium rounded hover:bg-orange-700 text-center">Book year package</a>
                         </div>
                       </div>
                     )}
@@ -766,7 +766,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="/book" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Book group sessions</a>
+                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Book group sessions</a>
                     </div>
 
                     <div className="bg-white border-2 border-blue-600 rounded-lg p-8">
@@ -791,7 +791,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Join the monthly group plan</a>
+                      <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Join the monthly group plan</a>
                     </div>
                   </div>
 
@@ -839,7 +839,7 @@ const Landing = () => {
                             ))}
                           </ul>
                           
-                          <a href="/book" className="block w-full px-6 py-3 bg-amber-600 text-white font-medium rounded hover:bg-amber-700 text-center">Book semester package</a>
+                          <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-amber-600 text-white font-medium rounded hover:bg-amber-700 text-center">Book semester package</a>
                         </div>
 
                         <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-300 rounded-lg p-8">
@@ -866,7 +866,7 @@ const Landing = () => {
                             ))}
                           </ul>
                           
-                          <a href="/book" className="block w-full px-6 py-3 bg-orange-600 text-white font-medium rounded hover:bg-orange-700 text-center">Book year package</a>
+                          <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-orange-600 text-white font-medium rounded hover:bg-orange-700 text-center">Book year package</a>
                         </div>
                       </div>
                     )}
@@ -1106,10 +1106,10 @@ const Landing = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a href="https://readiness.privatetutoring.ca" className="px-6 py-3 bg-white text-blue-600 font-medium rounded hover:bg-gray-50">Take the free readiness check</a>
-            <a href="/book" className="px-6 py-3 border-2 border-white text-white font-medium rounded hover:bg-blue-600">Book a private planning session</a>
+            <a href="https://booking.privatetutoring.ca/" className="px-6 py-3 border-2 border-white text-white font-medium rounded hover:bg-blue-600">Book a private planning session</a>
           </div>
 
-          <p className="text-blue-100"><a href="/book" className="underline hover:text-white">Already a current client? Book your next session →</a></p>
+          <p className="text-blue-100"><a href="https://booking.privatetutoring.ca/" className="underline hover:text-white">Already a current client? Book your next session →</a></p>
         </div>
       </section>
 
