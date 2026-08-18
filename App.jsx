@@ -277,12 +277,12 @@ const Landing = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="inline-flex rounded-full border border-blue-200 bg-white/80 px-3.5 py-1.5 text-xs font-semibold text-blue-800 uppercase tracking-widest mb-5 shadow-sm">Ontario math • grades 7–12</p>
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-950 mb-5 leading-[1.08]">Know exactly what your child needs to start stronger in <span className="relative inline-block text-blue-800 after:absolute after:inset-x-0 after:-bottom-1 after:h-2 after:rounded-full after:bg-teal-300/60 after:-z-10">math.</span></h1>
-              <p className="text-xl md:text-2xl text-slate-600 mb-6 leading-relaxed">For Ontario students in Grades 7-12 who need to catch up, start strong, or get ahead.</p>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">We find the specific skill gaps behind the grade, focus practice where it matters most, and build a clear path into the new school year.</p>
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-950 mb-5 leading-[1.08]">Find the hidden gaps holding your child back in <span className="relative inline-block text-blue-800 after:absolute after:inset-x-0 after:-bottom-1 after:h-2 after:rounded-full after:bg-teal-300/60 after:-z-10">math.</span></h1>
+              <p className="text-xl md:text-2xl text-slate-600 mb-6 leading-relaxed">A clear starting point for Ontario students in Grades 7-12 who want to catch up, start strong, or get ahead.</p>
+              <p className="text-lg text-gray-600 mb-8 leading-relaxed">We identify the specific skills behind the grade, teach what matters first, and give your child a focused plan for confident progress.</p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="https://readiness.privatetutoring.ca" className="px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 text-center shadow-lg shadow-blue-700/15 transition-all">Find their skill gaps</a>
-                <a href="#options" className="px-6 py-3.5 border border-slate-300 bg-white/80 text-gray-900 font-medium rounded-lg hover:border-blue-300 hover:bg-white text-center transition-colors">See support options</a>
+                <a href="https://readiness.privatetutoring.ca" className="px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 text-center shadow-lg shadow-blue-700/15 transition-all">Take the free readiness check</a>
+                <a href="#options" className="px-6 py-3.5 border border-slate-300 bg-white/80 text-gray-900 font-medium rounded-lg hover:border-blue-300 hover:bg-white text-center transition-colors">Compare support options</a>
               </div>
             </div>
             
@@ -403,15 +403,15 @@ const Landing = () => {
       <section className="py-20 md:py-28 border-y border-slate-100 bg-slate-50/60">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <p className="text-xs font-semibold uppercase tracking-widest text-blue-700 mb-4">Diagnose before you drill</p>
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-950 mb-6">Don't wait for the first bad test to reveal last year's gap.</h2>
+            <p className="text-xs font-semibold uppercase tracking-widest text-blue-700 mb-4">The right help starts with the right diagnosis</p>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-950 mb-6">Don't let another worksheet hide the real reason math feels hard.</h2>
             <p className="text-xl md:text-2xl font-medium text-slate-700 mb-6 leading-relaxed">A grade shows the result. It does not show the reason.</p>
             <div className="space-y-5 text-lg text-gray-600 leading-relaxed">
               <p>Two students can earn the same mark for completely different reasons. One may calculate accurately but struggle to reason through a new problem. Another may understand the concept but make mistakes applying it independently.</p>
-              <p>More worksheets will not solve a problem that has not been identified. The first step is to find the exact skill causing friction, then give your child the right explanation, practice, and accountability.</p>
-              <p className="font-semibold text-gray-900">That turns tutoring from homework help into a focused plan for progress.</p>
+              <p>More worksheets will not solve a problem that has not been identified. First we find the exact skill causing friction. Then your child gets the right explanation, focused practice, and support to use it independently.</p>
+              <p className="font-semibold text-gray-900">That is the difference between filling an hour and building lasting progress.</p>
             </div>
-            <a href="https://readiness.privatetutoring.ca" className="mt-9 inline-block px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 shadow-lg shadow-blue-700/15 transition-colors">Find the starting point</a>
+            <a href="https://readiness.privatetutoring.ca" className="mt-9 inline-block px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 shadow-lg shadow-blue-700/15 transition-colors">See what your child needs first</a>
           </div>
         </div>
       </section>
@@ -419,8 +419,8 @@ const Landing = () => {
       {/* Section 4: The Offer */}
       <section id="options" className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Choose the level of support that fits the goal.</h2>
-          <p className="text-lg text-gray-600 mb-12 max-w-3xl">Start with clarity for September or choose ongoing support that combines a clear strategy, consistent practice, and accountability between sessions.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Choose the path that matches the outcome.</h2>
+          <p className="text-lg text-gray-600 mb-12 max-w-3xl">Start with a clear diagnosis or choose ongoing support that combines instruction, practice, progress tracking, and accountability—not just another tutoring hour.</p>
           
           {/* Main Tab Toggle */}
           <div className="flex gap-2 mb-12 border-b border-gray-200">
@@ -472,7 +472,7 @@ const Landing = () => {
                       ))}
                     </ul>
                     
-                    <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Book the private readiness session</a>
+                    <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Get your child's private plan</a>
                   </div>
                 </div>
 
@@ -498,7 +498,7 @@ const Landing = () => {
                     </ul>
                     
                     <p className="text-sm text-gray-600 mb-8 pb-8 border-b border-gray-200">Best for friends at a similar level who benefit from shared momentum. Choose private for a deeper individual diagnosis.</p>
-                    <a href="/book" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Prepare together in a small group</a>
+                    <a href="/book" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Build momentum together</a>
                   </div>
                 </div>
               </div>
@@ -659,7 +659,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Start monthly support</a>
+                      <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Build consistent progress</a>
                     </div>
                   </div>
 
@@ -791,7 +791,7 @@ const Landing = () => {
                         ))}
                       </ul>
                       
-                      <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Start group monthly plan</a>
+                      <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Join the monthly group plan</a>
                     </div>
                   </div>
 
@@ -881,7 +881,7 @@ const Landing = () => {
       {/* Section 6: App Proof */}
       <section className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Make progress visible at the skill level.</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">See the proof of progress between sessions.</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -907,7 +907,7 @@ const Landing = () => {
             ))}
           </div>
 
-          <p className="text-gray-600 mt-12 text-center max-w-2xl mx-auto leading-relaxed">The app is not the program. It is the visibility and accountability tool that helps your child, parent, and tutor stay aligned on the next step.</p>
+          <p className="text-gray-600 mt-12 text-center max-w-2xl mx-auto leading-relaxed">The app keeps the plan visible: your child knows what to practise, you can see what is improving, and each session starts with a clear next step.</p>
         </div>
       </section>
 
@@ -1101,12 +1101,12 @@ const Landing = () => {
       {/* Section 10: Final CTA */}
       <section className="py-16 md:py-24 bg-gradient-to-br from-blue-600 to-blue-700">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">Give your child a clear starting point before the next course begins.</h2>
-          <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">Find the skills behind the grade, focus on what matters first, and leave with a personalized plan for stronger progress.</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">Stop guessing what your child needs in math.</h2>
+          <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">Find the skills behind the grade, identify the first priority, and give your child a clear plan for stronger progress.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <a href="/book" className="px-6 py-3 bg-white text-blue-600 font-medium rounded hover:bg-gray-50">Book their readiness session</a>
-            <a href="https://readiness.privatetutoring.ca" className="px-6 py-3 border-2 border-white text-white font-medium rounded hover:bg-blue-600">Find their starting point</a>
+            <a href="https://readiness.privatetutoring.ca" className="px-6 py-3 bg-white text-blue-600 font-medium rounded hover:bg-gray-50">Take the free readiness check</a>
+            <a href="/book" className="px-6 py-3 border-2 border-white text-white font-medium rounded hover:bg-blue-600">Book a private planning session</a>
           </div>
 
           <p className="text-blue-100"><a href="/book" className="underline hover:text-white">Already a current client? Book your next session →</a></p>
