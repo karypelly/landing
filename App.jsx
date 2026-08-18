@@ -19,6 +19,31 @@ const Landing = () => {
   const [showAboutKary, setShowAboutKary] = useState(false);
   const [expandedReviews, setExpandedReviews] = useState({});
 
+  if (window.location.pathname === '/package-contact') {
+    return (
+      <main className="min-h-screen bg-slate-50 flex items-center justify-center px-5 py-12">
+        <section className="w-full max-w-xl rounded-xl border border-slate-200 bg-white p-8 text-center md:p-12">
+          <img
+            src={infiniteSolutionsLogo}
+            alt="Infinite Solutions Tutoring"
+            className="mx-auto mb-8 h-14 w-auto object-contain"
+          />
+          <h1 className="mb-4 text-3xl font-bold text-slate-950 md:text-4xl">Call to book your tutoring package</h1>
+          <p className="mb-8 text-lg leading-relaxed text-slate-600">To book a private semester or year tutoring package, please call Kary directly.</p>
+          <a
+            href="tel:4166065425"
+            className="inline-block rounded-lg bg-blue-700 px-7 py-4 text-lg font-semibold text-white transition-colors hover:bg-blue-800"
+          >
+            Call (416) 606-5425
+          </a>
+          <div className="mt-8">
+            <a href="/" className="text-sm font-medium text-blue-700 underline hover:text-blue-800">Return to tutoring options</a>
+          </div>
+        </section>
+      </main>
+    );
+  }
+
   const getColorForPercentage = (value) => {
     if (value < 50) return 'bg-red-600';
     if (value < 75) return 'bg-orange-500';
@@ -634,7 +659,7 @@ const Landing = () => {
               {ongoingTab === "private" && (
                 <div>
                   <div className="max-w-2xl mb-12">
-                    <div className="bg-gray-50 border border-gray-200 rounded-lg p-8">
+                    <div className="bg-white border-2 border-blue-600 rounded-lg p-8">
                       <h3 className="text-2xl font-bold text-gray-900 mb-2">Individual Private Tutoring</h3>
                       <p className="text-4xl font-bold text-gray-900 mb-1"><span className="text-lg text-gray-600">Starting at </span>$75 <span className="text-lg text-gray-600">per hour + HST</span></p>
                       <p className="text-sm text-gray-600 mb-8">Book sessions as needed</p>
@@ -703,7 +728,7 @@ const Landing = () => {
                             ))}
                           </ul>
                           
-                          <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-amber-600 text-white font-medium rounded hover:bg-amber-700 text-center">Book semester package</a>
+                          <a href="/package-contact" className="block w-full px-6 py-3 bg-amber-600 text-white font-medium rounded hover:bg-amber-700 text-center">Book semester package</a>
                         </div>
 
                         <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-300 rounded-lg p-8">
@@ -730,7 +755,7 @@ const Landing = () => {
                             ))}
                           </ul>
                           
-                          <a href="https://booking.privatetutoring.ca/" className="block w-full px-6 py-3 bg-orange-600 text-white font-medium rounded hover:bg-orange-700 text-center">Book year package</a>
+                          <a href="/package-contact" className="block w-full px-6 py-3 bg-orange-600 text-white font-medium rounded hover:bg-orange-700 text-center">Book year package</a>
                         </div>
                       </div>
                     )}
@@ -742,7 +767,7 @@ const Landing = () => {
               {ongoingTab === "group" && (
                 <div>
                   <div className="max-w-2xl mb-12">
-                    <div className="bg-gray-50 border border-gray-200 rounded-lg p-8">
+                    <div className="bg-white border-2 border-blue-600 rounded-lg p-8">
                       <h3 className="text-2xl font-bold text-gray-900 mb-2">Group Tutoring</h3>
                       <p className="text-4xl font-bold text-gray-900 mb-1"><span className="text-lg text-gray-600">Starting at </span>$38 <span className="text-lg text-gray-600">per student/hour + HST</span></p>
                       <p className="text-sm text-gray-600 mb-8">Up to four students per tutor (maximum 1:4 ratio)</p>

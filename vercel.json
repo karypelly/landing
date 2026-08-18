@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/package-contact",
+      "destination": "/"
+    }
+  ]
+}
