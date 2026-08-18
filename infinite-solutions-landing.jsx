@@ -36,7 +36,7 @@ const Landing = () => {
     },
     {
       q: "How is the private session different from the small group?",
-      a: "The private option ($149 + HST) provides a more individualized assessment, deeper skill-gap identification, and a personalized plan tailored to your specific child. The small group ($50/student + HST) covers important prerequisite skills and common gaps at a more general level, making it ideal for friends at similar grade levels who want to prepare together."
+      a: "The private option (starting at $99 + HST) provides a more individualized assessment, deeper skill-gap identification, and a personalized plan tailored to your specific child. The small group (starting at $49/student + HST) covers important prerequisite skills and common gaps at a more general level, making it ideal for friends at similar grade levels who want to prepare together."
     },
     {
       q: "Does my child need to be struggling?",
@@ -496,7 +496,7 @@ const Landing = () => {
                   <div className="bg-white border-2 border-blue-600 rounded-lg p-8 h-full">
                     <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded mb-4">Recommended</div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">September Math Ready — Private</h3>
-                    <p className="text-4xl font-bold text-gray-900 mb-8">$149 <span className="text-lg text-gray-600">+ HST</span></p>
+                    <p className="text-4xl font-bold text-gray-900 mb-8"><span className="text-lg text-gray-600">Starting at </span>$99 <span className="text-lg text-gray-600">+ HST</span></p>
                     
                     <ul className="space-y-3 mb-8">
                       {[
@@ -521,7 +521,7 @@ const Landing = () => {
                 <div>
                   <div className="bg-gray-50 border border-gray-200 rounded-lg p-8 h-full flex flex-col">
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">September Math Ready — Small Group</h3>
-                    <p className="text-4xl font-bold text-gray-900 mb-1">$50 <span className="text-lg text-gray-600">per student + HST</span></p>
+                    <p className="text-4xl font-bold text-gray-900 mb-1"><span className="text-lg text-gray-600">Starting at </span>$49 <span className="text-lg text-gray-600">per student + HST</span></p>
                     <p className="text-sm text-gray-600 mb-8">For 2-3 students at similar grade/course level</p>
                     
                     <ul className="space-y-3 mb-8 flex-grow">
