@@ -892,7 +892,7 @@ const Landing = () => {
             ].map((item, i) => (
               <div key={item.label} className="space-y-5">
                 <div className="premium-card overflow-hidden rounded-2xl bg-gradient-to-b from-blue-50 to-white p-4">
-                  <div className="overflow-hidden rounded-xl bg-slate-100 aspect-[4/5]">
+                  <div className="overflow-hidden rounded-xl bg-slate-100 aspect-square">
                     <img
                       src={item.image}
                       alt={`${item.label} app screenshot`}
