@@ -1050,6 +1050,13 @@ const Landing = () => {
               </div>
             </div>
             <div className="bg-white rounded-lg p-8 border border-gray-200 text-center">
+              <div className="mx-auto mb-5 h-40 w-40 overflow-hidden rounded-full border-4 border-blue-100 shadow-sm">
+                <img
+                  src={karyPortrait}
+                  alt="Kary, founder of Infinite Solutions"
+                  className="h-full w-full object-cover object-center"
+                />
+              </div>
               <p className="text-gray-500 mb-4">Kary, Founder</p>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 "The goal is not more tutoring hours. It is the right explanation, the right practice, and a student who can move forward independently."
