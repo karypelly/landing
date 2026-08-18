@@ -3,7 +3,7 @@ import { ChevronDown, Menu, X } from 'lucide-react';
 import infiniteSolutionsLogo from './logo-data.js';
 import dylanHero from './assets/images/students/dylan.jpg';
 import catchUpPhoto from './assets/images/students/dylan-hero.png';
-import startStrongPhoto from './assets/images/students/dylan.png';
+import startStrongPhoto from './assets/images/students/jack.png';
 import getAheadPhoto from './assets/images/students/Student exploring advanced work.jpg';
 import appHomeScreenshot from './assets/images/app/app screenshot 1.png';
 import appHomeworkScreenshot from './assets/images/app/app screenshot 2.png';
