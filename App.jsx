@@ -9,7 +9,6 @@ import appHomeScreenshot from './assets/images/app/app screenshot 1.png';
 import appHomeworkScreenshot from './assets/images/app/app screenshot 2.png';
 import appMasteryScreenshot from './assets/images/app/app screenshot 3.png';
 import karyPortrait from './assets/images/placeholders/kary-portrait.png';
-import processClearStrategy from './assets/images/placeholders/process-clear-strategy.png';
 
 const Landing = () => {
   const [offerTab, setOfferTab] = useState('september');
@@ -876,47 +875,6 @@ const Landing = () => {
               )}
             </div>
           )}
-        </div>
-      </section>
-
-      {/* Section 5: Why Different */}
-      <section className="py-16 md:py-24 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">The right strategy works better with strong habits and accountability.</h2>
-          
-          <div className="premium-card bg-gradient-to-br from-white to-blue-50 rounded-2xl p-8 md:p-10 mb-12">
-            <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
-              {[
-                {label: "Clear strategy", image: processClearStrategy, alt: "Student reviewing a clear learning strategy on a laptop"},
-                {label: "Focused practice"},
-                {label: "Skill tracking"},
-                {label: "Accountability"}
-              ].map((step, i) => (
-                <React.Fragment key={step.label}>
-                  <div className="flex-1 overflow-hidden rounded-xl border border-blue-100 bg-white text-center shadow-sm">
-                    <div className="aspect-[4/3] bg-gradient-to-br from-slate-100 to-blue-50 flex items-center justify-center border-b border-blue-100">
-                      {step.image ? (
-                        <img src={step.image} alt={step.alt} className="h-full w-full object-cover object-center" />
-                      ) : (
-                        <div>
-                          <div className="mx-auto mb-2 h-8 w-8 rounded-full bg-blue-200 ring-4 ring-white" aria-hidden="true"></div>
-                          <span className="text-[11px] font-medium text-slate-500">Image placeholder</span>
-                        </div>
-                      )}
-                    </div>
-                    <p className="px-4 py-4 font-semibold text-gray-900">{step.label}</p>
-                  </div>
-                  {i < 3 && <span className="text-xl text-blue-300 text-center">→</span>}
-                </React.Fragment>
-              ))}
-            </div>
-            <div className="mt-7 flex items-center justify-center gap-3 text-center font-medium text-gray-900">
-              <span className="text-2xl text-blue-500">↻</span>
-              <span>Every result shapes the next step</span>
-            </div>
-          </div>
-
-          <p className="text-lg text-gray-700 leading-relaxed max-w-2xl">A session provides direction. Progress comes from what happens next: focused practice, visible improvement, and support that keeps the student moving. We use each result to decide what to teach and practise next.</p>
         </div>
       </section>
 
