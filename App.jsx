@@ -17,6 +17,7 @@ const Landing = () => {
   const [expandedFAQ, setExpandedFAQ] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showAboutKary, setShowAboutKary] = useState(false);
+  const [expandedReviews, setExpandedReviews] = useState({});
 
   const getColorForPercentage = (value) => {
     if (value < 50) return 'bg-red-600';
@@ -965,8 +966,16 @@ const Landing = () => {
               {
                 text: "I am a 2nd year computer science student, Kary has helped me so much with learning Java! I have gone from zero understanding to being able to program on my own. He’s very patient while teaching, and makes sure to explain topics until I can understand!",
                 byline: "Katrin, student"
+              },
+              {
+                text: "Student since grade 8, currently in grade 11. Kary breaks down and explains lesson and work material in a way that’s easy to understand. 10/10!",
+                byline: "Jason, Student"
+              },
+              {
+                text: "Kary and team are fantastic. Some tutors just know how to connect with young people and speak to them in a manner that motivates students rather than deflates them. As a parent, I also find the team to be professional. I highly recommend the service!",
+                byline: "Michelle, Parent"
               }
-            ].map((review) => (
+            ].map((review, i) => (
               <article key={review.byline} className="bg-white border border-gray-200 rounded-xl p-7 shadow-sm flex flex-col">
                 <div className="flex items-center justify-between mb-5">
                   <div className="flex gap-1" aria-label="5 out of 5 stars">
@@ -981,8 +990,19 @@ const Landing = () => {
                     <path fill="#EA4335" d="M12 5.94c1.47 0 2.79.5 3.82 1.5l2.88-2.88A9.65 9.65 0 0 0 12 2a10 10 0 0 0-8.96 5.44l3.35 2.63C7.18 7.7 9.39 5.94 12 5.94Z" />
                   </svg>
                 </div>
-                <p className="text-gray-700 mb-7 italic leading-relaxed flex-grow">{review.text}</p>
-                <div className="flex items-center gap-3 border-t border-gray-100 pt-5">
+                <p id={`review-text-${i}`} className={`text-gray-700 italic leading-relaxed ${expandedReviews[i] ? "mb-3" : "mb-3 line-clamp-4"}`}>{review.text}</p>
+                {review.text.length > 170 && (
+                  <button
+                    type="button"
+                    onClick={() => setExpandedReviews((current) => ({ ...current, [i]: !current[i] }))}
+                    className="mb-5 self-start text-sm font-semibold text-blue-700 hover:text-blue-900"
+                    aria-expanded={Boolean(expandedReviews[i])}
+                    aria-controls={`review-text-${i}`}
+                  >
+                    {expandedReviews[i] ? "Read less" : "Read more"}
+                  </button>
+                )}
+                <div className="mt-auto flex items-center gap-3 border-t border-gray-100 pt-5">
                   <div className="h-9 w-9 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center font-semibold">{review.byline.charAt(0)}</div>
                   <div>
                     <p className="font-medium text-gray-900">BY: {review.byline}</p>
