@@ -364,6 +364,7 @@ const Landing = () => {
                 description: "Close the specific gaps making today's work harder, then rebuild confidence one skill at a time.",
                 photo: catchUpPhoto,
                 photoAlt: "Student rebuilding core math skills with a tutor",
+                cta: "Find the gaps",
                 points: ["Find the gap behind the struggle", "Get a clear explanation", "Build confidence through focused practice"]
               },
               {
@@ -372,6 +373,7 @@ const Landing = () => {
                 photo: startStrongPhoto,
                 photoAlt: "Student preparing for math with personalized support",
                 photoPosition: "object-[center_30%]",
+                cta: "Check course readiness",
                 points: ["Check course readiness", "Strengthen priority skills", "Start with a clear plan"]
               },
               {
@@ -379,6 +381,7 @@ const Landing = () => {
                 description: "Turn a strong foundation into greater independence, deeper problem-solving, and forward momentum.",
                 photo: getAheadPhoto,
                 photoAlt: "Student exploring advanced math work with a tutor",
+                cta: "Plan the next step",
                 points: ["Preview upcoming concepts", "Strengthen problem-solving", "Prepare for a harder course"]
               }
             ].map((option, i) => (
@@ -397,6 +400,9 @@ const Landing = () => {
                       </li>
                     ))}
                   </ul>
+                  <a href="https://readiness.privatetutoring.ca" className="mt-6 block w-full rounded-lg bg-blue-700 px-4 py-3 text-center text-sm font-medium text-white transition-colors hover:bg-blue-800">
+                    {option.cta}
+                  </a>
                 </div>
               </article>
             ))}
