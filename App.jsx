@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import infiniteSolutionsLogo from './logo-data.js';
-import dylanHero from './dylan.jpg';
-import catchUpPhoto from './dylan-hero.jpg';
-import startStrongPhoto from './dylan.png';
-import getAheadPhoto from './Student exploring advanced work.jpg';
-import appHomeScreenshot from './app screenshot 1.png';
-import appHomeworkScreenshot from './app screenshot 2.png';
-import appMasteryScreenshot from './app screenshot 3.png';
+import dylanHero from './assets/images/students/dylan.jpg';
+import catchUpPhoto from './assets/images/students/dylan-hero.jpg';
+import startStrongPhoto from './assets/images/students/dylan.png';
+import getAheadPhoto from './assets/images/students/Student exploring advanced work.jpg';
+import appHomeScreenshot from './assets/images/app/app screenshot 1.png';
+import appHomeworkScreenshot from './assets/images/app/app screenshot 2.png';
+import appMasteryScreenshot from './assets/images/app/app screenshot 3.png';
 
 const Landing = () => {
   const [offerTab, setOfferTab] = useState('september');
