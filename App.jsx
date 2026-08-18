@@ -45,7 +45,7 @@ const Landing = () => {
     },
     {
       q: "How is the private session different from the small group?",
-      a: "The private option ($149 + HST) provides a deeper individual assessment and a plan built around one student. The small group ($50/student + HST) reviews important prerequisite skills for 2-3 students at a similar level. The group adds peer momentum, shared practice, and accountability while the private session offers more individual diagnosis."
+      a: "The private option ($149 + HST) provides a deeper individual assessment and a plan built around one student. The small group ($50/student + HST) reviews important prerequisite skills for 2-3 students at a similar level. Students still receive focused guidance, while the small-group environment adds peer momentum, shared practice, and accountability. Choose private for the deepest individual diagnosis or small group for structured progress alongside peers."
     },
     {
       q: "Does my child need to be struggling?",
@@ -278,9 +278,9 @@ const Landing = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="inline-flex rounded-full border border-blue-200 bg-white/80 px-3.5 py-1.5 text-xs font-semibold text-blue-800 uppercase tracking-widest mb-5 shadow-sm">Ontario math • grades 7–12</p>
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-950 mb-5 leading-[1.08]">Find the hidden gaps holding your child back in <span className="relative inline-block text-blue-800 after:absolute after:inset-x-0 after:-bottom-1 after:h-2 after:rounded-full after:bg-teal-300/60 after:-z-10">math.</span></h1>
-              <p className="text-xl md:text-2xl text-slate-600 mb-6 leading-relaxed">A clear starting point for Ontario students in Grades 7-12 who want to catch up, start strong, or get ahead.</p>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">We identify the specific skills behind the grade, teach what matters first, and give your child a focused plan for confident progress.</p>
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-950 mb-5 leading-[1.08]">Give your child a clear path to stronger results in <span className="relative inline-block text-blue-800 after:absolute after:inset-x-0 after:-bottom-1 after:h-2 after:rounded-full after:bg-teal-300/60 after:-z-10">math.</span></h1>
+              <p className="text-xl md:text-2xl text-slate-600 mb-6 leading-relaxed">Find the hidden gaps behind the grade, so your child can catch up, start strong, or get ahead with confidence.</p>
+              <p className="text-lg text-gray-600 mb-8 leading-relaxed">We identify what is getting in the way, teach the highest-impact skills first, and build a focused plan your child can actually follow—without piling on more random worksheets.</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="https://readiness.privatetutoring.ca" className="px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 text-center shadow-lg shadow-blue-700/15 transition-all">Take the free readiness check</a>
                 <a href="#options" className="px-6 py-3.5 border border-slate-300 bg-white/80 text-gray-900 font-medium rounded-lg hover:border-blue-300 hover:bg-white text-center transition-colors">Compare support options</a>
@@ -352,27 +352,27 @@ const Landing = () => {
       {/* New Section: What Does Your Child Need? */}
       <section className="order-2 py-12 md:py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-8 text-center">Where does your child need to go next?</h2>
+          <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-8 text-center">Choose the outcome your child needs next.</h2>
           
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {[
               {
                 title: "Catch Up",
-                description: "Rebuild the foundations that make current work feel harder than it should.",
+                description: "Close the specific gaps making today's work harder, then rebuild confidence one skill at a time.",
                 photo: catchUpPhoto,
                 photoAlt: "Student rebuilding core math skills with a tutor",
-                points: ["Find the gap behind the struggle", "Relearn it clearly", "Practise with support"]
+                points: ["Find the gap behind the struggle", "Get a clear explanation", "Build confidence through focused practice"]
               },
               {
                 title: "Start Strong",
-                description: "Enter the next course knowing the prerequisite skills are in place.",
+                description: "Enter the next course prepared, confident, and clear on the skills that matter most.",
                 photo: startStrongPhoto,
                 photoAlt: "Student preparing for math with personalized support",
-                points: ["Check course readiness", "Target priority skills", "Begin with confidence"]
+                points: ["Check course readiness", "Strengthen priority skills", "Start with a clear plan"]
               },
               {
                 title: "Get Ahead",
-                description: "Turn a strong foundation into greater challenge, independence, and momentum.",
+                description: "Turn a strong foundation into greater independence, deeper problem-solving, and forward momentum.",
                 photo: getAheadPhoto,
                 photoAlt: "Student exploring advanced math work with a tutor",
                 points: ["Preview upcoming concepts", "Strengthen problem-solving", "Prepare for a harder course"]
@@ -405,12 +405,12 @@ const Landing = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <p className="text-xs font-semibold uppercase tracking-widest text-blue-700 mb-4">The right help starts with the right diagnosis</p>
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-950 mb-6">Don't let another worksheet hide the real reason math feels hard.</h2>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-950 mb-6">More practice only works when it targets the right problem.</h2>
             <p className="text-xl md:text-2xl font-medium text-slate-700 mb-6 leading-relaxed">A grade shows the result. It does not show the reason.</p>
             <div className="space-y-5 text-lg text-gray-600 leading-relaxed">
               <p>Two students can earn the same mark for completely different reasons. One may calculate accurately but struggle to reason through a new problem. Another may understand the concept but make mistakes applying it independently.</p>
-              <p>More worksheets will not solve a problem that has not been identified. First we find the exact skill causing friction. Then your child gets the right explanation, focused practice, and support to use it independently.</p>
-              <p className="font-semibold text-gray-900">That is the difference between filling an hour and building lasting progress.</p>
+              <p>More worksheets will not solve a problem that has not been identified. First we find the exact skill causing friction. Then we combine the right strategy, repeatable practice habits, and an accountable learning environment so your child can use the skill independently.</p>
+              <p className="font-semibold text-gray-900">The goal is not to fill another tutoring hour. It is to create progress your child can see, feel, and build on.</p>
             </div>
             <a href="https://readiness.privatetutoring.ca" className="mt-9 inline-block px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 shadow-lg shadow-blue-700/15 transition-colors">See what your child needs first</a>
           </div>
@@ -420,8 +420,8 @@ const Landing = () => {
       {/* Section 4: The Offer */}
       <section id="options" className="order-6 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Choose the path that matches the outcome.</h2>
-          <p className="text-lg text-gray-600 mb-12 max-w-3xl">Start with a clear diagnosis or choose ongoing support that combines instruction, practice, progress tracking, and accountability—not just another tutoring hour.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Choose the level of support that fits your child.</h2>
+          <p className="text-lg text-gray-600 mb-12 max-w-3xl">Start with a clear diagnosis, then choose the support needed to reach the goal. Every option is built around a simple progression: identify the priority, teach it clearly, practise with purpose, and track what improves.</p>
           
           {/* Main Tab Toggle */}
           <div className="flex gap-2 mb-12 border-b border-gray-200">
@@ -882,13 +882,13 @@ const Landing = () => {
       {/* Section 6: App Proof */}
       <section className="order-4 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">See the proof of progress between sessions.</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Know what is improving—not just how many sessions were completed.</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              {title: "See which skills are improving and which ones still need attention.", label: "Progress Dashboard", image: appHomeScreenshot},
-              {title: "Give students one clear next step instead of more unfocused worksheets.", label: "Personalized Practice", image: appHomeworkScreenshot},
-              {title: "Use real progress to guide the next session and keep momentum going.", label: "Skill Mastery", image: appMasteryScreenshot}
+              {title: "See which skills are improving and where support will make the biggest difference next.", label: "Progress Dashboard", image: appHomeScreenshot},
+              {title: "Give your child one clear next step, so practice feels purposeful instead of overwhelming.", label: "Personalized Practice", image: appHomeworkScreenshot},
+              {title: "Turn visible wins into motivation, stronger habits, and momentum that carries into class.", label: "Skill Mastery", image: appMasteryScreenshot}
             ].map((item, i) => (
               <div key={item.label} className="space-y-5">
                 <div className="premium-card overflow-hidden rounded-2xl bg-gradient-to-b from-blue-50 to-white p-4">
@@ -908,7 +908,7 @@ const Landing = () => {
             ))}
           </div>
 
-          <p className="text-gray-600 mt-12 text-center max-w-2xl mx-auto leading-relaxed">The app keeps the plan visible: your child knows what to practise, you can see what is improving, and each session starts with a clear next step.</p>
+          <p className="text-gray-600 mt-12 text-center max-w-2xl mx-auto leading-relaxed">The app keeps everyone aligned: your child knows what to practise, you can see the evidence of progress, and each session begins with the next highest-impact step.</p>
         </div>
       </section>
 
@@ -998,10 +998,10 @@ const Landing = () => {
       {/* Section 9: Who This Is For */}
       <section className="order-7 py-16 md:py-24 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">A clear starting point for the student who...</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">This is a strong fit for the student who...</h2>
           
           <div className="max-w-2xl">
-            <p className="text-gray-700 mb-8 font-medium">September Math Ready is a good fit if your child:</p>
+            <p className="text-gray-700 mb-8 font-medium">September Math Ready can help if your child:</p>
             <ul className="space-y-3 mb-12">
               {[
                 "Is entering Grades 7-12 in Ontario",
@@ -1102,8 +1102,8 @@ const Landing = () => {
       {/* Section 10: Final CTA */}
       <section className="order-10 py-16 md:py-24 bg-gradient-to-br from-blue-600 to-blue-700">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">Stop guessing what your child needs in math.</h2>
-          <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">Find the skills behind the grade, identify the first priority, and give your child a clear plan for stronger progress.</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">Give your child a clear next step in math.</h2>
+          <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">Start with a free readiness check to uncover the skills behind the grade. Then choose the support that gives your child the right strategy, stronger habits, and steady accountability.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a href="https://readiness.privatetutoring.ca" className="px-6 py-3 bg-white text-blue-600 font-medium rounded hover:bg-gray-50">Take the free readiness check</a>
