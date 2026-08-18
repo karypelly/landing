@@ -371,6 +371,7 @@ const Landing = () => {
                 description: "Enter the next course prepared, confident, and clear on the skills that matter most.",
                 photo: startStrongPhoto,
                 photoAlt: "Student preparing for math with personalized support",
+                photoPosition: "object-[center_30%]",
                 points: ["Check course readiness", "Strengthen priority skills", "Start with a clear plan"]
               },
               {
@@ -383,7 +384,7 @@ const Landing = () => {
             ].map((option, i) => (
               <article key={option.title} className={`premium-card overflow-hidden rounded-2xl flex flex-col ${i === 1 ? "md:-translate-y-2 border-blue-200" : ""}`}>
                 <div className="aspect-[16/9] overflow-hidden border-b border-blue-100">
-                  <img src={option.photo} alt={option.photoAlt} className="h-full w-full object-cover object-center" loading="lazy" />
+                  <img src={option.photo} alt={option.photoAlt} className={`h-full w-full object-cover ${option.photoPosition || "object-center"}`} loading="lazy" />
                 </div>
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-gray-950 mb-2">{option.title}</h3>
