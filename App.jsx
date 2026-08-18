@@ -32,7 +32,7 @@ const Landing = () => {
   const faqItems = [
     {
       q: "What is September Math Ready?",
-      a: "September Math Ready is a comprehensive assessment and preparation session designed to identify your child's specific math skill gaps before the new school year begins. We assess their current level, identify important gaps, provide targeted instruction and practice, and give you a clear plan for success in September."
+      a: "September Math Ready gives your family a clear picture of the skills your child already has, the gaps that could slow them down, and the best next steps before school begins. We review prerequisite skills, teach the highest-priority areas, and leave you with a focused plan for September."
     },
     {
       q: "Which grades is it for?",
@@ -40,11 +40,11 @@ const Landing = () => {
     },
     {
       q: "What happens during the session?",
-      a: "During a private session, we conduct a review of important prerequisite skills, identify the most critical skill gaps, provide targeted instruction on those areas, assign personalized practice work, and send you home with clear recommendations and a plan for September."
+      a: "We begin with the prerequisite skills that matter for your child's next course. Then we identify the most important gaps, teach the areas that will make the biggest difference, assign focused practice, and give you clear recommendations for September."
     },
     {
       q: "How is the private session different from the small group?",
-      a: "The private option ($149 + HST) provides a more individualized assessment, deeper skill-gap identification, and a personalized plan tailored to your specific child. The small group ($50/student + HST) covers important prerequisite skills and common gaps at a more general level, making it ideal for friends at similar grade levels who want to prepare together."
+      a: "The private option ($149 + HST) provides a deeper individual assessment and a plan built around one student. The small group ($50/student + HST) reviews important prerequisite skills for 2-3 students at a similar level. The group adds peer momentum, shared practice, and accountability while the private session offers more individual diagnosis."
     },
     {
       q: "Does my child need to be struggling?",
@@ -52,11 +52,11 @@ const Landing = () => {
     },
     {
       q: "What happens after the session?",
-      a: "After your session, you receive a written summary of what we found, the skills that need the most attention, and recommendations for how to approach September. Many families choose to continue with ongoing support or our monthly tutoring plan to keep that momentum going."
+      a: "You receive a written summary of what we found, the skills that deserve attention first, and practical recommendations for September. If your child would benefit from continued structure, you can choose ongoing private or small-group support to build on that plan."
     },
     {
       q: "Can we continue tutoring in September?",
-      a: "Absolutely. Many families use September Math Ready as the starting point for ongoing tutoring. We offer both individual tutoring ($89/hour) and our Monthly Math Support package ($349/month) which includes regular 1-on-1 sessions, personalized practice, app access, and progress tracking."
+      a: "Absolutely. Many families use September Math Ready as the starting point for a consistent support plan. Ongoing options include individual sessions and monthly support with regular tutoring, personalized practice, app access, and progress tracking."
     },
     {
       q: "How does the learning app work?",
@@ -111,15 +111,15 @@ const Landing = () => {
               <div className="md:col-span-2">
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Meet Kary</h1>
                 <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                  I'm Kary, the founder and lead tutor at Infinite Solutions. I started this business because I saw too many students and parents frustrated by a simple problem: grades don't tell you what's actually missing.
+                  I'm Kary, founder and lead tutor at Infinite Solutions. I help Ontario students in Grades 7-12 find the skills holding them back, rebuild confidence, and move into their next math course with a clear plan.
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">My Philosophy</h2>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Math isn't about memorizing formulas or rushing through problems. It's about understanding how ideas connect. When a student truly understands, everything becomes easier—not just math, but their confidence too.
+                  Better results come from the right strategy, consistent habits, and an environment that keeps students engaged. When those pieces work together, math starts to make sense and confidence grows with it.
                 </p>
                 <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                  Every student learns differently. Some need to see the big picture first. Others learn by doing. My job is to figure out how your child learns best and meet them there. That's what personalized tutoring actually means.
+                  My job is not simply to work through tonight's homework. It is to diagnose the gap behind the struggle, explain the idea clearly, and help your child practise it until they can use it independently.
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">What I Do</h2>
@@ -142,26 +142,26 @@ const Landing = () => {
                     <span className="text-2xl">💪</span>
                     <div>
                       <p className="font-bold text-gray-900">Create Momentum</p>
-                      <p className="text-gray-700">Regular practice and tracking keep progress visible and motivation high between sessions.</p>
+                      <p className="text-gray-700">Focused practice and visible progress turn one good session into consistent improvement.</p>
                     </div>
                   </li>
                   <li className="flex gap-4">
                     <span className="text-2xl">🤝</span>
                     <div>
                       <p className="font-bold text-gray-900">Stay Accountable</p>
-                      <p className="text-gray-700">I check in with you and your child regularly so we know what's working.</p>
+                      <p className="text-gray-700">Clear goals, regular check-ins, and the right learning environment help strong habits stick.</p>
                     </div>
                   </li>
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Grades 7–12?</h2>
                 <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                  This is where math becomes more abstract and cumulative. A gap from Grade 7 doesn't go away—it compounds. By high school, students who felt lost in algebra are drowning in calculus. I help break that cycle by going back to find what's missing and rebuilding it the right way.
+                  Math becomes more abstract and cumulative in these years. A missed foundation can quietly affect the next unit and the next course. I help students find that missing piece early, rebuild it properly, and move forward with confidence.
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Talk?</h2>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Whether you have questions, want to discuss your child's math situation, or you're ready to book, I'm here to help. Give me a call.
+                  Tell me where your child is now and where you want them to be. We'll identify the most useful next step together.
                 </p>
                 <a href="tel:4166065425" className="inline-block px-6 py-3 bg-green-600 text-white font-medium rounded hover:bg-green-700">
                   📞 (416) 606-5425
@@ -259,7 +259,7 @@ const Landing = () => {
                 className="block w-full px-4 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Check Math Readiness
+                See Support Options
               </a>
             </div>
           </div>
@@ -274,12 +274,12 @@ const Landing = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="inline-flex rounded-full border border-blue-200 bg-white/80 px-3.5 py-1.5 text-xs font-semibold text-blue-800 uppercase tracking-widest mb-5 shadow-sm">Ontario math • grades 7–12</p>
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-950 mb-5 leading-[1.08]">Start September stronger in <span className="relative inline-block text-blue-800 after:absolute after:inset-x-0 after:-bottom-1 after:h-2 after:rounded-full after:bg-teal-300/60 after:-z-10">math.</span></h1>
-              <p className="text-xl md:text-2xl text-slate-600 mb-6 leading-relaxed">Personalized math support to help your child catch up, start strong, or get ahead.</p>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">We identify what they need, focus practice where it matters most, and build a clear plan for the school year.</p>
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-950 mb-5 leading-[1.08]">Know exactly what your child needs to start stronger in <span className="relative inline-block text-blue-800 after:absolute after:inset-x-0 after:-bottom-1 after:h-2 after:rounded-full after:bg-teal-300/60 after:-z-10">math.</span></h1>
+              <p className="text-xl md:text-2xl text-slate-600 mb-6 leading-relaxed">For Ontario students in Grades 7-12 who need to catch up, start strong, or get ahead.</p>
+              <p className="text-lg text-gray-600 mb-8 leading-relaxed">We find the specific skill gaps behind the grade, focus practice where it matters most, and build a clear path into the new school year.</p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="/readiness" className="px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 text-center shadow-lg shadow-blue-700/15 transition-all">Check their math readiness</a>
-                <a href="#options" className="px-6 py-3.5 border border-slate-300 bg-white/80 text-gray-900 font-medium rounded-lg hover:border-blue-300 hover:bg-white text-center transition-colors">Explore tutoring options</a>
+                <a href="/readiness" className="px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 text-center shadow-lg shadow-blue-700/15 transition-all">Find their skill gaps</a>
+                <a href="#options" className="px-6 py-3.5 border border-slate-300 bg-white/80 text-gray-900 font-medium rounded-lg hover:border-blue-300 hover:bg-white text-center transition-colors">See support options</a>
               </div>
             </div>
             
@@ -337,7 +337,7 @@ const Landing = () => {
                 </div>
               </div>
                 <p className="text-[11px] leading-relaxed text-gray-500 mt-4 pt-4 border-t border-gray-100">
-                  Illustrative example—not a real student result. <span className="font-semibold text-blue-800">A mark alone doesn’t show which skills are strong or where support is needed.</span>
+                  Illustrative example, not a real student result. <span className="font-semibold text-blue-800">The same overall mark can hide very different strengths and gaps.</span>
                 </p>
               </div>
             </div>
@@ -348,30 +348,30 @@ const Landing = () => {
       {/* New Section: What Does Your Child Need? */}
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-8 text-center">What does your child need?</h2>
+          <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-8 text-center">Where does your child need to go next?</h2>
           
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {[
               {
                 title: "Catch Up",
-                description: "Strengthen gaps from previous math courses.",
+                description: "Rebuild the foundations that make current work feel harder than it should.",
                 photo: catchUpPhoto,
                 photoAlt: "Student rebuilding core math skills with a tutor",
-                points: ["Inconsistent marks", "Foundational gaps", "Needs guided review"]
+                points: ["Find the gap behind the struggle", "Relearn it clearly", "Practise with support"]
               },
               {
                 title: "Start Strong",
-                description: "Review key skills and begin prepared.",
+                description: "Enter the next course knowing the prerequisite skills are in place.",
                 photo: startStrongPhoto,
                 photoAlt: "Student preparing for math with personalized support",
-                points: ["Back-to-school review", "Unsure about readiness", "Building confidence"]
+                points: ["Check course readiness", "Target priority skills", "Begin with confidence"]
               },
               {
                 title: "Get Ahead",
-                description: "Preview upcoming concepts and build confidence.",
+                description: "Turn a strong foundation into greater challenge, independence, and momentum.",
                 photo: getAheadPhoto,
                 photoAlt: "Student exploring advanced math work with a tutor",
-                points: ["Already doing well", "Wants enrichment", "Preparing for a harder course"]
+                points: ["Preview upcoming concepts", "Strengthen problem-solving", "Prepare for a harder course"]
               }
             ].map((option, i) => (
               <article key={option.title} className={`premium-card overflow-hidden rounded-2xl flex flex-col ${i === 1 ? "md:-translate-y-2 border-blue-200" : ""}`}>
@@ -400,15 +400,15 @@ const Landing = () => {
       <section className="py-20 md:py-28 border-y border-slate-100 bg-slate-50/60">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <p className="text-xs font-semibold uppercase tracking-widest text-blue-700 mb-4">Clarity before the school year</p>
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-950 mb-6">Don't wait for the first bad test to find out what's missing.</h2>
-            <p className="text-xl md:text-2xl font-medium text-slate-700 mb-6 leading-relaxed">A grade doesn't tell you what your child actually needs help with.</p>
+            <p className="text-xs font-semibold uppercase tracking-widest text-blue-700 mb-4">Diagnose before you drill</p>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-950 mb-6">Don't wait for the first bad test to reveal last year's gap.</h2>
+            <p className="text-xl md:text-2xl font-medium text-slate-700 mb-6 leading-relaxed">A grade shows the result. It does not show the reason.</p>
             <div className="space-y-5 text-lg text-gray-600 leading-relaxed">
-              <p>Two students can receive the same overall grade while having completely different gaps. One might be strong in computation but weak in reasoning. Another might understand theory but struggle with application. A single number hides all of that.</p>
-              <p>Maybe they understand when someone explains it but struggle independently. Maybe their mark seems fine, but you still do not know what they are missing. Or maybe you simply do not want to discover in October that they are already behind.</p>
-              <p className="font-semibold text-gray-900">That is why we look beyond the grade and identify the individual skills behind it.</p>
+              <p>Two students can earn the same mark for completely different reasons. One may calculate accurately but struggle to reason through a new problem. Another may understand the concept but make mistakes applying it independently.</p>
+              <p>More worksheets will not solve a problem that has not been identified. The first step is to find the exact skill causing friction, then give your child the right explanation, practice, and accountability.</p>
+              <p className="font-semibold text-gray-900">That turns tutoring from homework help into a focused plan for progress.</p>
             </div>
-            <a href="/readiness" className="mt-9 inline-block px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 shadow-lg shadow-blue-700/15 transition-colors">Check their readiness</a>
+            <a href="/readiness" className="mt-9 inline-block px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 shadow-lg shadow-blue-700/15 transition-colors">Find the starting point</a>
           </div>
         </div>
       </section>
@@ -416,8 +416,8 @@ const Landing = () => {
       {/* Section 4: The Offer */}
       <section id="options" className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Choose what works for you.</h2>
-          <p className="text-lg text-gray-600 mb-12 max-w-3xl">Whether your child is preparing for September, restarting tutoring, or looking for ongoing support, choose the option that fits best.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Choose the level of support that fits the goal.</h2>
+          <p className="text-lg text-gray-600 mb-12 max-w-3xl">Start with clarity for September or choose ongoing support that combines a clear strategy, consistent practice, and accountability between sessions.</p>
           
           {/* Main Tab Toggle */}
           <div className="flex gap-2 mb-12 border-b border-gray-200">
@@ -455,12 +455,12 @@ const Landing = () => {
                     
                     <ul className="space-y-3 mb-8">
                       {[
-                        "1-on-1 assessment and review",
-                        "Individual skill-gap identification",
-                        "Targeted instruction",
-                        "Personalized practice",
-                        "September recommendations",
-                        "App-supported progress tracking"
+                        "Private prerequisite-skill review",
+                        "Clear identification of individual gaps",
+                        "Teaching focused on the highest-priority skill",
+                        "Personalized practice for what comes next",
+                        "A written September action plan",
+                        "App-supported visibility into progress"
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-3">
                           <span className="text-blue-600 font-bold mt-0.5">✓</span>
@@ -469,7 +469,7 @@ const Landing = () => {
                       ))}
                     </ul>
                     
-                    <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Start September Math Ready</a>
+                    <a href="/book" className="block w-full px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center">Book the private readiness session</a>
                   </div>
                 </div>
 
@@ -481,11 +481,11 @@ const Landing = () => {
                     
                     <ul className="space-y-3 mb-8 flex-grow">
                       {[
-                        "Review of important prerequisite skills",
+                        "Review of shared prerequisite skills",
                         "Identification of common gaps",
-                        "Targeted group instruction",
-                        "Practice and September prep",
-                        "More general assessment (vs. individualized)"
+                        "Guided instruction with peer momentum",
+                        "Coached practice and September preparation",
+                        "A supportive, accountable group environment"
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-3">
                           <span className="text-gray-400 font-bold mt-0.5">✓</span>
@@ -494,8 +494,8 @@ const Landing = () => {
                       ))}
                     </ul>
                     
-                    <p className="text-sm text-gray-600 mb-8 pb-8 border-b border-gray-200">The private option provides a more individualized assessment and plan.</p>
-                    <a href="/book" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Book a small group session</a>
+                    <p className="text-sm text-gray-600 mb-8 pb-8 border-b border-gray-200">Best for friends at a similar level who benefit from shared momentum. Choose private for a deeper individual diagnosis.</p>
+                    <a href="/book" className="block w-full px-6 py-3 border-2 border-gray-300 text-gray-900 font-medium rounded hover:bg-gray-100 text-center">Prepare together in a small group</a>
                   </div>
                 </div>
               </div>
@@ -509,8 +509,8 @@ const Landing = () => {
                   <div className="flex items-center gap-3">
                     <span className="text-2xl">✨</span>
                     <div className="text-left">
-                      <p className="font-semibold text-gray-900">Premium Full Support Package</p>
-                      <p className="text-sm text-gray-600">Complete semester or year-long program</p>
+                      <p className="font-semibold text-gray-900">Complete Progress Program</p>
+                      <p className="text-sm text-gray-600">Strategy, practice, tracking, and accountability for a semester or year</p>
                     </div>
                   </div>
                   <ChevronDown 
@@ -529,13 +529,13 @@ const Landing = () => {
                       
                       <ul className="space-y-3 mb-8">
                         {[
-                          "All assessment services included",
-                          "Bi-weekly intensive tutoring sessions",
-                          "Daily personalized practice assignments",
-                          "Full app access and progress tracking",
+                          "Readiness assessment and individual learning plan",
+                          "Bi-weekly focused tutoring sessions",
+                          "Personalized practice between sessions",
+                          "Full app access and skill-level tracking",
                           "Parent check-ins every 2 weeks",
-                          "Continuous skill gap monitoring",
-                          "End-of-semester comprehensive report"
+                          "Continuous adjustment based on progress",
+                          "End-of-semester progress report"
                         ].map((item, i) => (
                           <li key={i} className="flex items-start gap-3">
                             <span className="text-amber-600 font-bold mt-0.5">✓</span>
@@ -555,14 +555,15 @@ const Landing = () => {
                       
                       <ul className="space-y-3 mb-8">
                         {[
-                          "All semester services included",
+                          "A clear year-long learning roadmap",
                           "Weekly 1-on-1 tutoring sessions",
-                          "Daily personalized practice",
+                          "Personalized practice between sessions",
                           "Full app access with analytics",
-                          "Monthly parent strategy calls",
-                          "Quarterly comprehensive assessments",
-                          "Summer maintenance support",
-                          "Guaranteed skill improvement"
+                          "Monthly parent progress calls",
+                          "Quarterly skill assessments",
+                          "Support for strong study habits",
+                          "Summer momentum plan",
+                          "Progress tracked against identified goals"
                         ].map((item, i) => (
                           <li key={i} className="flex items-start gap-3">
                             <span className="text-orange-600 font-bold mt-0.5">✓</span>
@@ -617,11 +618,11 @@ const Landing = () => {
                       
                       <ul className="space-y-3 mb-8 flex-grow">
                         {[
-                          "1-on-1 tutoring sessions",
-                          "Personalized to your child needs",
+                          "Focused 1-on-1 tutoring",
+                          "Personalized to your child's current needs",
                           "Flexible scheduling",
-                          "Target any math topic or skill",
-                          "Book as many or as few sessions as you need"
+                          "Target a specific math topic or skill",
+                          "Ideal for immediate, short-term support"
                         ].map((item, i) => (
                           <li key={i} className="flex items-start gap-3">
                             <span className="text-gray-400 font-bold mt-0.5">✓</span>
@@ -641,12 +642,12 @@ const Landing = () => {
                       
                       <ul className="space-y-3 mb-8 flex-grow">
                         {[
-                          "Regular 1-on-1 tutoring sessions",
+                          "Regular 1-on-1 instruction with a clear roadmap",
                           "Personalized practice between sessions",
-                          "App access and skill tracking",
-                          "Accountability and ongoing support",
-                          "Tutoring responds to actual progress",
-                          "Best for consistent improvement"
+                          "App access and skill-level tracking",
+                          "Consistent habits and accountability",
+                          "Each session responds to actual progress",
+                          "Best for steady, measurable development"
                         ].map((item, i) => (
                           <li key={i} className="flex items-start gap-3">
                             <span className="text-blue-600 font-bold mt-0.5">✓</span>
@@ -668,8 +669,8 @@ const Landing = () => {
                       <div className="flex items-center gap-3">
                         <span className="text-2xl">✨</span>
                         <div className="text-left">
-                          <p className="font-semibold text-gray-900">Premium Full Support Package</p>
-                          <p className="text-sm text-gray-600">Complete semester or year-long program</p>
+                          <p className="font-semibold text-gray-900">Complete Progress Program</p>
+                          <p className="text-sm text-gray-600">A complete environment for consistent semester or year-long progress</p>
                         </div>
                       </div>
                       <ChevronDown 
@@ -688,11 +689,11 @@ const Landing = () => {
                           
                           <ul className="space-y-3 mb-8">
                             {[
-                              "Bi-weekly intensive tutoring sessions",
+                              "Bi-weekly focused tutoring sessions",
                               "Personalized practice between sessions",
-                              "Full app access and progress tracking",
+                              "Full app access and skill-level tracking",
                               "Parent check-ins every 2 weeks",
-                              "Continuous skill monitoring",
+                              "A learning plan adjusted to progress",
                               "Flexible scheduling around school",
                               "Mid-semester progress report"
                             ].map((item, i) => (
@@ -714,14 +715,14 @@ const Landing = () => {
                           
                           <ul className="space-y-3 mb-8">
                             {[
-                              "Weekly 1-on-1 tutoring sessions",
-                              "Daily personalized practice assignments",
+                              "Weekly 1-on-1 tutoring within a clear roadmap",
+                              "Personalized practice between sessions",
                               "Full app access with analytics",
-                              "Monthly strategy calls with parent",
-                              "Quarterly comprehensive assessments",
-                              "Summer maintenance program",
-                              "Dedicated tutor relationship",
-                              "Guaranteed measurable improvement"
+                              "Monthly progress calls with parents",
+                              "Quarterly skill assessments",
+                              "Summer momentum plan",
+                              "A consistent tutor relationship",
+                              "Progress tracked against identified goals"
                             ].map((item, i) => (
                               <li key={i} className="flex items-start gap-3">
                                 <span className="text-orange-600 font-bold mt-0.5">✓</span>
@@ -743,17 +744,17 @@ const Landing = () => {
                 <div>
                   <div className="grid md:grid-cols-2 gap-8 mb-12">
                     <div className="bg-gray-50 border border-gray-200 rounded-lg p-8">
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Individual Sessions</h3>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Small Group Sessions</h3>
                       <p className="text-4xl font-bold text-gray-900 mb-1">$49 <span className="text-lg text-gray-600">per student/hour + HST</span></p>
                       <p className="text-sm text-gray-600 mb-8">For 2-3 students at similar level</p>
                       
                       <ul className="space-y-3 mb-8 flex-grow">
                         {[
-                          "Targeted group tutoring sessions",
-                          "Personalized to group needs",
+                          "Targeted instruction for a matched small group",
+                          "A shared goal with room for individual support",
                           "Flexible scheduling",
-                          "Collaborative learning environment",
-                          "Book as many or as few sessions as you need"
+                          "Peer momentum and coached practice",
+                          "Book sessions when the group needs them"
                         ].map((item, i) => (
                           <li key={i} className="flex items-start gap-3">
                             <span className="text-gray-400 font-bold mt-0.5">✓</span>
@@ -773,12 +774,12 @@ const Landing = () => {
                       
                       <ul className="space-y-3 mb-8 flex-grow">
                         {[
-                          "Regular group tutoring sessions",
+                          "Regular tutoring with a well-matched peer group",
                           "Personalized practice between sessions",
-                          "App access and skill tracking",
-                          "Collaborative learning environment",
-                          "Tutoring responds to group progress",
-                          "More affordable for families with friends"
+                          "App access and individual skill tracking",
+                          "Peer momentum, participation, and accountability",
+                          "Teaching responds to group and individual progress",
+                          "Best for students who learn well alongside others"
                         ].map((item, i) => (
                           <li key={i} className="flex items-start gap-3">
                             <span className="text-blue-600 font-bold mt-0.5">✓</span>
@@ -800,8 +801,8 @@ const Landing = () => {
                       <div className="flex items-center gap-3">
                         <span className="text-2xl">✨</span>
                         <div className="text-left">
-                          <p className="font-semibold text-gray-900">Premium Full Support Package</p>
-                          <p className="text-sm text-gray-600">Complete semester or year-long program</p>
+                          <p className="font-semibold text-gray-900">Complete Group Progress Program</p>
+                          <p className="text-sm text-gray-600">A structured peer environment for semester or year-long progress</p>
                         </div>
                       </div>
                       <ChevronDown 
@@ -820,12 +821,12 @@ const Landing = () => {
                           
                           <ul className="space-y-3 mb-8">
                             {[
-                              "Bi-weekly group tutoring sessions",
+                              "Bi-weekly sessions with a consistent small group",
                               "Personalized practice between sessions",
-                              "Full app access and progress tracking",
+                              "Full app access and individual skill tracking",
                               "Bi-weekly progress updates",
-                              "Collaborative learning environment",
-                              "Group and individual skill monitoring",
+                              "Peer momentum and coached practice",
+                              "Group and individual progress monitoring",
                               "Mid-semester progress report"
                             ].map((item, i) => (
                               <li key={i} className="flex items-start gap-3">
@@ -846,14 +847,14 @@ const Landing = () => {
                           
                           <ul className="space-y-3 mb-8">
                             {[
-                              "Weekly group tutoring sessions",
-                              "Daily personalized practice assignments",
+                              "Weekly sessions with a consistent small group",
+                              "Personalized practice between sessions",
                               "Full app access with analytics",
                               "Monthly check-ins with parents",
-                              "Quarterly comprehensive assessments",
-                              "Summer maintenance program",
+                              "Quarterly skill assessments",
+                              "Summer momentum plan",
                               "Collaborative and individual tracking",
-                              "Guaranteed measurable improvement"
+                              "Progress tracked against identified goals"
                             ].map((item, i) => (
                               <li key={i} className="flex items-start gap-3">
                                 <span className="text-orange-600 font-bold mt-0.5">✓</span>
@@ -877,11 +878,11 @@ const Landing = () => {
       {/* Section 5: Why Different */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Tutoring should not stop when the session ends.</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">The right strategy works better with strong habits and accountability.</h2>
           
           <div className="premium-card bg-gradient-to-br from-white to-blue-50 rounded-2xl p-8 md:p-10 mb-12">
             <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
-              {["Live tutoring", "Personalized practice", "Skill tracking", "Accountability"].map((step, i) => (
+              {["Clear strategy", "Focused practice", "Skill tracking", "Accountability"].map((step, i) => (
                 <React.Fragment key={step}>
                   <div className="flex-1 overflow-hidden rounded-xl border border-blue-100 bg-white text-center shadow-sm">
                     <div className="aspect-[4/3] bg-gradient-to-br from-slate-100 to-blue-50 flex items-center justify-center border-b border-blue-100">
@@ -898,24 +899,24 @@ const Landing = () => {
             </div>
             <div className="mt-7 flex items-center justify-center gap-3 text-center font-medium text-gray-900">
               <span className="text-2xl text-blue-500">↻</span>
-              <span>Next session uses the results</span>
+              <span>Every result shapes the next step</span>
             </div>
           </div>
 
-          <p className="text-lg text-gray-700 leading-relaxed max-w-2xl">Traditional tutoring often focuses on the hour itself. Our approach also looks at what happens between sessions: what the student practices, which individual skills are improving, and what should be targeted next. That is how tutoring gets better.</p>
+          <p className="text-lg text-gray-700 leading-relaxed max-w-2xl">A session provides direction. Progress comes from what happens next: focused practice, visible improvement, and support that keeps the student moving. We use each result to decide what to teach and practise next.</p>
         </div>
       </section>
 
       {/* Section 6: App Proof */}
       <section className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">See what they are actually working on.</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Make progress visible at the skill level.</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              {title: "See progress at the skill level—not just one overall grade.", label: "Progress Dashboard", image: appHomeScreenshot},
-              {title: "Students know exactly what to work on between sessions.", label: "Personalized Practice", image: appHomeworkScreenshot},
-              {title: "Tutoring can respond to what is actually happening between sessions.", label: "Skill Mastery", image: appMasteryScreenshot}
+              {title: "See which skills are improving and which ones still need attention.", label: "Progress Dashboard", image: appHomeScreenshot},
+              {title: "Give students one clear next step instead of more unfocused worksheets.", label: "Personalized Practice", image: appHomeworkScreenshot},
+              {title: "Use real progress to guide the next session and keep momentum going.", label: "Skill Mastery", image: appMasteryScreenshot}
             ].map((item, i) => (
               <div key={item.label} className="space-y-5">
                 <div className="premium-card overflow-hidden rounded-2xl bg-gradient-to-b from-blue-50 to-white p-4">
@@ -935,7 +936,7 @@ const Landing = () => {
             ))}
           </div>
 
-          <p className="text-gray-600 mt-12 text-center max-w-2xl mx-auto leading-relaxed">The technology makes the tutoring better. Your child's learning comes first; the app is one of the tools that supports it.</p>
+          <p className="text-gray-600 mt-12 text-center max-w-2xl mx-auto leading-relaxed">The app is not the program. It is the visibility and accountability tool that helps your child, parent, and tutor stay aligned on the next step.</p>
         </div>
       </section>
 
@@ -1025,19 +1026,19 @@ const Landing = () => {
       {/* Section 9: Who This Is For */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Is September Math Ready right for your child?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">A clear starting point for the student who...</h2>
           
           <div className="max-w-2xl">
-            <p className="text-gray-700 mb-8 font-medium">Good fit if:</p>
+            <p className="text-gray-700 mb-8 font-medium">September Math Ready is a good fit if your child:</p>
             <ul className="space-y-3 mb-12">
               {[
-                "Entering Grades 7–12",
-                "There may be gaps from the previous year",
-                "Math has become inconsistent",
-                "They understand some topics but struggle with others",
-                "They want to start September stronger",
-                "A parent wants a clearer picture of what needs attention",
-                "The student wants to get ahead"
+                "Is entering Grades 7-12 in Ontario",
+                "May have gaps from the previous course",
+                "Has marks that do not tell the whole story",
+                "Understands with help but struggles independently",
+                "Wants to begin the next course with confidence",
+                "Needs a clear priority instead of more random practice",
+                "Is doing well and wants to prepare ahead"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <span className="text-blue-600 font-bold">✓</span>
@@ -1047,7 +1048,7 @@ const Landing = () => {
             </ul>
 
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-              <p className="text-gray-900"><span className="font-medium">Also:</span> Students who are already doing well can use the session to identify weaker areas and prepare ahead for the coming course. It is not just for students who are behind.</p>
+              <p className="text-gray-900"><span className="font-medium">Not only for students who are behind:</span> Strong students can use the session to uncover quieter weak spots, preview the next course, and turn good results into greater independence.</p>
             </div>
           </div>
         </div>
@@ -1060,17 +1061,17 @@ const Landing = () => {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet Kary</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                I started Infinite Solutions because I saw too many students frustrated by a simple problem: grades don't tell you what's actually missing.
+                I help Ontario students in Grades 7-12 move from “I don't get it” to a clear understanding of what is missing and what to do next.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                I believe every student can understand math when it's taught the right way. My approach is simple: identify exactly what's missing, explain it clearly, and build real confidence.
+                My approach combines three things that make progress stick: a clear strategy for the right skills, habits built through focused practice, and an accountable learning environment.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
                   onClick={() => setShowAboutKary(true)}
                   className="px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center"
                 >
-                  Read My Full Story
+                  See How I Teach
                 </button>
                 <a href="tel:4166065425" className="px-6 py-3 border-2 border-green-600 text-green-600 font-medium rounded hover:bg-green-50 text-center">
                   📞 Call Kary
@@ -1080,7 +1081,7 @@ const Landing = () => {
             <div className="bg-white rounded-lg p-8 border border-gray-200 text-center">
               <p className="text-gray-500 mb-4">Kary, Founder</p>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                "Math isn't about memorizing. It's about understanding. When your child really gets it, everything changes."
+                "The goal is not more tutoring hours. It is the right explanation, the right practice, and a student who can move forward independently."
               </p>
               <a href="tel:4166065425" className="inline-block px-6 py-3 bg-green-600 text-white font-medium rounded hover:bg-green-700">
                 📞 (416) 606-5425
@@ -1122,12 +1123,12 @@ const Landing = () => {
       {/* Section 10: Final CTA */}
       <section className="py-16 md:py-24 bg-gradient-to-br from-blue-600 to-blue-700">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">Find out what needs work before September does.</h2>
-          <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">Start the school year with a clearer picture of your child's math skills and a personalized plan for what comes next.</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">Give your child a clear starting point before the next course begins.</h2>
+          <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">Find the skills behind the grade, focus on what matters first, and leave with a personalized plan for stronger progress.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <a href="/book" className="px-6 py-3 bg-white text-blue-600 font-medium rounded hover:bg-gray-50">Book September Math Ready</a>
-            <a href="/readiness" className="px-6 py-3 border-2 border-white text-white font-medium rounded hover:bg-blue-600">Take the free readiness check</a>
+            <a href="/book" className="px-6 py-3 bg-white text-blue-600 font-medium rounded hover:bg-gray-50">Book their readiness session</a>
+            <a href="/readiness" className="px-6 py-3 border-2 border-white text-white font-medium rounded hover:bg-blue-600">Find their starting point</a>
           </div>
 
           <p className="text-blue-100"><a href="/book" className="underline hover:text-white">Already a current client? Book your next session →</a></p>
