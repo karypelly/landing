@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
-import infiniteSolutionsLogo from './logo-data.js';
+import infiniteSolutionsLogo from './assets/images/brand/infinite-solutions-logo.png';
 import dylanHero from './assets/images/students/dylan.jpg';
 import catchUpPhoto from './assets/images/students/dylan-hero.png';
 import startStrongPhoto from './assets/images/students/jack.png';
@@ -187,20 +187,23 @@ const Landing = () => {
       {!showAboutKary && (
         <>
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 border-b border-blue-100/80 bg-white/90 backdrop-blur-xl">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-3 font-semibold tracking-tight text-gray-950">
+      <nav className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/95 backdrop-blur-md">
+        <div className="mx-auto flex h-[62px] max-w-[1100px] items-center justify-between px-[18px] md:h-[68px] md:px-6">
+          <div className="flex items-center gap-2.5 text-gray-950">
             <img
               src={infiniteSolutionsLogo}
               alt="Infinite Solutions logo"
-              className="h-11 w-11 object-contain"
+              className="h-10 w-auto object-contain md:h-[46px]"
             />
-            <span>Infinite Solutions</span>
+            <span className="flex flex-col justify-center leading-none">
+              <span className="text-[15px] font-semibold tracking-tight text-slate-950 md:text-base">Infinite Solutions</span>
+              <span className="mt-px text-[9px] font-semibold uppercase tracking-[0.24em] text-teal-700">Tutoring</span>
+            </span>
           </div>
           <div className="hidden md:flex gap-8 text-sm items-center">
-            <a href="#options" className="text-gray-700 hover:text-gray-900">Pricing</a>
-            <a href="#about-kary" onClick={() => setShowAboutKary(true)} className="text-gray-700 hover:text-gray-900 cursor-pointer">About Kary</a>
-            <a href="tel:4166065425" className="px-4 py-2.5 bg-gray-950 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-sm">
+            <a href="#options" className="text-slate-700 hover:text-slate-950">Pricing</a>
+            <a href="#about-kary" onClick={() => setShowAboutKary(true)} className="text-slate-700 hover:text-slate-950 cursor-pointer">About Kary</a>
+            <a href="tel:4166065425" className="flex items-center gap-2 rounded-lg bg-slate-950 px-4 py-2.5 font-medium text-white transition-colors hover:bg-teal-700">
               <span>📞</span> Call Kary
             </a>
           </div>
@@ -208,7 +211,7 @@ const Landing = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 text-gray-900 hover:bg-gray-100 rounded"
+            className="rounded p-2 text-slate-900 hover:bg-slate-100 md:hidden"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -217,18 +220,18 @@ const Landing = () => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-200 bg-white">
-            <div className="px-4 py-4 space-y-3">
+          <div className="border-t border-slate-200/70 bg-white md:hidden">
+            <div className="space-y-3 px-[18px] py-4">
               <a 
                 href="#options" 
-                className="block py-2 text-gray-900 hover:text-blue-600 font-medium"
+                className="block py-2 font-medium text-slate-900 hover:text-teal-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Pricing
               </a>
               <a 
                 href="#about-kary" 
-                className="block py-2 text-gray-900 hover:text-blue-600 font-medium cursor-pointer"
+                className="block cursor-pointer py-2 font-medium text-slate-900 hover:text-teal-700"
                 onClick={() => {
                   setMobileMenuOpen(false);
                   setShowAboutKary(true);
@@ -238,28 +241,28 @@ const Landing = () => {
               </a>
               <a 
                 href="https://readiness.privatetutoring.ca"
-                className="block py-2 text-gray-900 hover:text-blue-600 font-medium"
+                className="block py-2 font-medium text-slate-900 hover:text-teal-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Free Readiness Check
               </a>
               <a 
                 href="#faq" 
-                className="block py-2 text-gray-900 hover:text-blue-600 font-medium"
+                className="block py-2 font-medium text-slate-900 hover:text-teal-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 FAQ
               </a>
               <a 
                 href="tel:4166065425" 
-                className="block w-full mt-4 px-4 py-3 bg-green-600 text-white font-medium rounded hover:bg-green-700 text-center"
+                className="mt-4 block w-full rounded bg-slate-950 px-4 py-3 text-center font-medium text-white hover:bg-teal-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 📞 Call Kary
               </a>
               <a 
                 href="https://readiness.privatetutoring.ca"
-                className="block w-full px-4 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center"
+                className="block w-full rounded border border-teal-700 px-4 py-3 text-center font-medium text-teal-800 hover:bg-teal-50"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 See Support Options
