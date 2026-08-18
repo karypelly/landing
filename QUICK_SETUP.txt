@@ -1,0 +1,177 @@
+# Quick Setup - Copy & Paste All Commands
+
+## One-Line Setup (Copy Everything Below)
+
+```bash
+mkdir infinite-solutions-website && cd infinite-solutions-website && mkdir src && cat > package.json << 'EOF'
+{
+  "name": "infinite-solutions-landing",
+  "version": "1.0.0",
+  "description": "Infinite Solutions tutoring landing page",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
+  }
+}
+EOF
+```
+
+Then run:
+```bash
+cat > vite.config.js << 'EOF'
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+export default defineConfig({
+  plugins: [react()],
+  server: { port: 3000, open: true },
+})
+EOF
+
+cat > tailwind.config.js << 'EOF'
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: { extend: {} },
+  plugins: [],
+}
+EOF
+
+cat > postcss.config.js << 'EOF'
+export default {
+  plugins: { tailwindcss: {}, autoprefixer: {} },
+}
+EOF
+
+cat > netlify.toml << 'EOF'
+[build]
+command = "npm run build"
+publish = "dist"
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+EOF
+
+cat > .gitignore << 'EOF'
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+.netlify/
+EOF
+
+cat > index.html << 'EOF'
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinite Solutions - Ontario Math Tutoring for Grades 7-12</title>
+    <meta name="description" content="Personalized math tutoring for students in Grades 7-12." />
+    <meta name="theme-color" content="#1e40af" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+EOF
+
+cat > src/main.jsx << 'EOF'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+EOF
+
+cat > src/index.css << 'EOF'
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+EOF
+```
+
+## Then:
+
+1. **Download App.jsx:**
+   - Get `/mnt/user-data/outputs/infinite-solutions-landing.jsx`
+   - Save as `src/App.jsx` in your project
+
+2. **Install & Run:**
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+## Done! ✅
+
+Your site is now running at http://localhost:3000
+
+---
+
+## Edit These Two Files
+
+**1. `src/App.jsx`**
+- Search: `4166065425` → Replace with your phone
+- Search: `$149` → Update pricing
+- Search: `About Kary` → Update bio
+- Search: `bg-blue-600` → Change colors
+
+**2. `index.html`**
+- Line 6: Update `<title>Your Title</title>`
+
+---
+
+## Deploy
+
+```bash
+npm run build
+# Upload dist/ folder to Netlify
+```
+
+---
+
+## Questions?
+
+See:
+- **MANUAL_SETUP.md** - Detailed manual setup
+- **START_HERE.md** - Quick start guide
+- **README.md** - Full documentation
+
+Or call: (416) 606-5425
