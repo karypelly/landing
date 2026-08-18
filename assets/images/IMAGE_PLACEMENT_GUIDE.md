@@ -15,7 +15,7 @@ Use JPG or WebP where possible. Keep each image under 500 KB after compression.
 
 Put the image here:
 
-`assets/images/placeholders/kary-portrait.jpg`
+`assets/images/placeholders/kary-portrait.png`
 
 Recommended image:
 
@@ -31,7 +31,7 @@ This replaces the `Kary's Photo` box on the full About Kary page.
 
 Put the image here:
 
-`assets/images/placeholders/process-clear-strategy.jpg`
+`assets/images/placeholders/process-clear-strategy.png`
 
 Recommended image:
 

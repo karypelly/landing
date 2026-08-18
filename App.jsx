@@ -8,6 +8,8 @@ import getAheadPhoto from './assets/images/students/Student exploring advanced w
 import appHomeScreenshot from './assets/images/app/app screenshot 1.png';
 import appHomeworkScreenshot from './assets/images/app/app screenshot 2.png';
 import appMasteryScreenshot from './assets/images/app/app screenshot 3.png';
+import karyPortrait from './assets/images/placeholders/kary-portrait.png';
+import processClearStrategy from './assets/images/placeholders/process-clear-strategy.png';
 
 const Landing = () => {
   const [offerTab, setOfferTab] = useState('september');
@@ -95,12 +97,14 @@ const Landing = () => {
           {/* About Content */}
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
             <div className="grid md:grid-cols-3 gap-12 items-start">
-              {/* Photo Placeholder */}
+              {/* Kary portrait */}
               <div className="md:col-span-1">
-                <div className="bg-gray-200 rounded-lg aspect-square flex items-center justify-center mb-6">
-                  <div className="text-gray-400 text-center">
-                    <p className="text-sm">Kary's Photo</p>
-                  </div>
+                <div className="bg-gray-200 rounded-lg aspect-square overflow-hidden mb-6">
+                  <img
+                    src={karyPortrait}
+                    alt="Kary, founder and lead tutor at Infinite Solutions"
+                    className="h-full w-full object-cover object-center"
+                  />
                 </div>
                 <a href="tel:4166065425" className="block w-full px-6 py-3 bg-green-600 text-white font-medium rounded hover:bg-green-700 text-center">
                   📞 (416) 606-5425
@@ -882,16 +886,25 @@ const Landing = () => {
           
           <div className="premium-card bg-gradient-to-br from-white to-blue-50 rounded-2xl p-8 md:p-10 mb-12">
             <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
-              {["Clear strategy", "Focused practice", "Skill tracking", "Accountability"].map((step, i) => (
-                <React.Fragment key={step}>
+              {[
+                {label: "Clear strategy", image: processClearStrategy, alt: "Student reviewing a clear learning strategy on a laptop"},
+                {label: "Focused practice"},
+                {label: "Skill tracking"},
+                {label: "Accountability"}
+              ].map((step, i) => (
+                <React.Fragment key={step.label}>
                   <div className="flex-1 overflow-hidden rounded-xl border border-blue-100 bg-white text-center shadow-sm">
                     <div className="aspect-[4/3] bg-gradient-to-br from-slate-100 to-blue-50 flex items-center justify-center border-b border-blue-100">
-                      <div>
-                        <div className="mx-auto mb-2 h-8 w-8 rounded-full bg-blue-200 ring-4 ring-white" aria-hidden="true"></div>
-                        <span className="text-[11px] font-medium text-slate-500">Image placeholder</span>
-                      </div>
+                      {step.image ? (
+                        <img src={step.image} alt={step.alt} className="h-full w-full object-cover object-center" />
+                      ) : (
+                        <div>
+                          <div className="mx-auto mb-2 h-8 w-8 rounded-full bg-blue-200 ring-4 ring-white" aria-hidden="true"></div>
+                          <span className="text-[11px] font-medium text-slate-500">Image placeholder</span>
+                        </div>
+                      )}
                     </div>
-                    <p className="px-4 py-4 font-semibold text-gray-900">{step}</p>
+                    <p className="px-4 py-4 font-semibold text-gray-900">{step.label}</p>
                   </div>
                   {i < 3 && <span className="text-xl text-blue-300 text-center">→</span>}
                 </React.Fragment>
