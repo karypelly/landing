@@ -269,8 +269,9 @@ const Landing = () => {
         )}
       </nav>
 
+      <main className="flex flex-col">
       {/* Section 1: Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50">
+      <section className="order-1 relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50">
         <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-blue-200/30 blur-3xl" aria-hidden="true"></div>
         <div className="absolute -bottom-40 left-1/3 h-80 w-80 rounded-full bg-sky-100/50 blur-3xl" aria-hidden="true"></div>
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-28">
@@ -349,7 +350,7 @@ const Landing = () => {
       </section>
 
       {/* New Section: What Does Your Child Need? */}
-      <section className="py-12 md:py-16 bg-white">
+      <section className="order-2 py-12 md:py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-8 text-center">Where does your child need to go next?</h2>
           
@@ -400,7 +401,7 @@ const Landing = () => {
       </section>
 
       {/* Section 2: Parent Problem */}
-      <section className="py-20 md:py-28 border-y border-slate-100 bg-slate-50/60">
+      <section className="order-3 py-20 md:py-28 border-y border-slate-100 bg-slate-50/60">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <p className="text-xs font-semibold uppercase tracking-widest text-blue-700 mb-4">The right help starts with the right diagnosis</p>
@@ -417,7 +418,7 @@ const Landing = () => {
       </section>
 
       {/* Section 4: The Offer */}
-      <section id="options" className="py-16 md:py-24">
+      <section id="options" className="order-6 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Choose the path that matches the outcome.</h2>
           <p className="text-lg text-gray-600 mb-12 max-w-3xl">Start with a clear diagnosis or choose ongoing support that combines instruction, practice, progress tracking, and accountability—not just another tutoring hour.</p>
@@ -879,7 +880,7 @@ const Landing = () => {
       </section>
 
       {/* Section 6: App Proof */}
-      <section className="py-16 md:py-24">
+      <section className="order-4 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">See the proof of progress between sessions.</h2>
           
@@ -912,7 +913,7 @@ const Landing = () => {
       </section>
 
       {/* Section 8: Testimonials */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-white to-blue-50/50">
+      <section className="order-5 py-16 md:py-24 bg-gradient-to-b from-white to-blue-50/50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
             <div>
@@ -995,7 +996,7 @@ const Landing = () => {
       </section>
 
       {/* Section 9: Who This Is For */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="order-7 py-16 md:py-24 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">A clear starting point for the student who...</h2>
           
@@ -1026,7 +1027,7 @@ const Landing = () => {
       </section>
 
       {/* About Kary Teaser */}
-      <section id="about-kary" className="py-16 md:py-24 bg-gradient-to-r from-blue-50 to-blue-100 border-t border-gray-200">
+      <section id="about-kary" className="order-8 py-16 md:py-24 bg-gradient-to-r from-blue-50 to-blue-100 border-t border-gray-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -1070,7 +1071,7 @@ const Landing = () => {
       </section>
 
       {/* Section 11: FAQ */}
-      <section id="faq" className="py-16 md:py-24">
+      <section id="faq" className="order-9 py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Frequently asked questions.</h2>
           
@@ -1099,7 +1100,7 @@ const Landing = () => {
       </section>
 
       {/* Section 10: Final CTA */}
-      <section className="py-16 md:py-24 bg-gradient-to-br from-blue-600 to-blue-700">
+      <section className="order-10 py-16 md:py-24 bg-gradient-to-br from-blue-600 to-blue-700">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">Stop guessing what your child needs in math.</h2>
           <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">Find the skills behind the grade, identify the first priority, and give your child a clear plan for stronger progress.</p>
@@ -1114,12 +1115,13 @@ const Landing = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12">
+      <footer className="order-11 bg-gray-900 text-gray-300 py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="mb-2">Infinite Solutions Tutoring</p>
           <p className="text-sm text-gray-400">Ontario math support for Grades 7–12</p>
         </div>
       </footer>
+      </main>
         </>
       )}
     </div>
