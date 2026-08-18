@@ -32,36 +32,44 @@ const Landing = () => {
 
   const faqItems = [
     {
-      q: "What is September Math Ready?",
-      a: "September Math Ready gives your family a clear picture of the skills your child already has, the gaps that could slow them down, and the best next steps before school begins. We review prerequisite skills, teach the highest-priority areas, and leave you with a focused plan for September."
+      q: "How does the tutoring process begin?",
+      a: "We start by understanding the result your child wants and identifying what is preventing them from reaching it. That means looking beyond the current grade to the specific concepts, prerequisite skills, problem-solving habits, and confidence barriers involved. From there, we establish the first priority and build a focused tutoring plan instead of starting with generic worksheets."
     },
     {
-      q: "Which grades is it for?",
-      a: "September Math Ready is designed for students entering Grades 7–12 in Ontario. Whether your child is transitioning from elementary to secondary or moving between high school grades, we tailor the assessment to their specific course level."
+      q: "What makes this different from ordinary homework help?",
+      a: "Homework help solves the questions due tomorrow. Our process also looks for the reason those questions are difficult in the first place. We diagnose the underlying gap, teach the missing idea clearly, assign focused practice, and track whether the student can use the skill independently. Homework still gets support, but each session is also designed to create progress that carries into future units, tests, and courses."
     },
     {
-      q: "What happens during the session?",
-      a: "We begin with the prerequisite skills that matter for your child's next course. Then we identify the most important gaps, teach the areas that will make the biggest difference, assign focused practice, and give you clear recommendations for September."
+      q: "What happens during a typical tutoring session?",
+      a: "Each session begins with a clear objective based on the student's current needs and recent progress. The tutor checks understanding, explains the concept in a way that connects to what the student already knows, guides them through deliberate practice, and then reduces support so the student can demonstrate the skill independently. The result of the session determines what should happen next."
     },
     {
-      q: "How is the private session different from the small group?",
-      a: "The private option ($149 + HST) provides a deeper individual assessment and a plan built around one student. The small group ($50/student + HST) reviews important prerequisite skills for 2-3 students at a similar level. Students still receive focused guidance, while the small-group environment adds peer momentum, shared practice, and accountability. Choose private for the deepest individual diagnosis or small group for structured progress alongside peers."
+      q: "How do you decide what to teach next?",
+      a: "We prioritize the skill that will create the greatest useful change—not simply the next page in a workbook. Session performance, assigned practice, app activity, schoolwork, and upcoming course demands all help shape the next step. If a skill is secure, we move forward. If it is not yet independent, we adjust the explanation or practice before adding more difficulty."
     },
     {
-      q: "Does my child need to be struggling?",
-      a: "No. September Math Ready is for any student who wants to start the year stronger. Students performing well can use the session to identify weaker areas within their current level and prepare ahead for the coming course. It's not just about remediation—it's about clarity and readiness."
+      q: "How does the learning app support tutoring?",
+      a: "The app keeps the learning plan active between sessions. Students can see the specific skills they need to practise, complete work connected to their tutoring goals, and watch their mastery develop over time. Parents gain clearer visibility into what is improving, while the tutor uses that information to plan the next highest-impact session."
     },
     {
-      q: "What happens after the session?",
-      a: "You receive a written summary of what we found, the skills that deserve attention first, and practical recommendations for September. If your child would benefit from continued structure, you can choose ongoing private or small-group support to build on that plan."
+      q: "What is the difference between private and small-group tutoring?",
+      a: "Private tutoring provides the most individual diagnosis, pacing, and attention for one student. Small-group tutoring is designed for 2–3 students at a similar level and combines focused instruction with peer discussion, shared momentum, and accountability. The best option depends on the depth of the gaps, the student's learning preferences, and whether suitable group partners are available."
     },
     {
-      q: "Can we continue tutoring in September?",
-      a: "Absolutely. Many families use September Math Ready as the starting point for a consistent support plan. Ongoing options include individual sessions and monthly support with regular tutoring, personalized practice, app access, and progress tracking."
+      q: "Does my child need to be struggling to benefit?",
+      a: "No. Some students need to rebuild missing foundations, while others want to prepare for a harder course, develop stronger problem-solving skills, or become more independent. The plan changes according to the outcome: catch up, start strong, or get ahead."
     },
     {
-      q: "How does the learning app work?",
-      a: "Our app supports personalized practice between tutoring sessions. Students see exactly which skills to work on, track their progress at the skill level, and you can see what's happening between sessions. The app is one part of how we make tutoring more effective—it's not complicated software you need to learn; it's a simple tool that helps the tutoring work harder."
+      q: "How do you measure progress?",
+      a: "We look for more than completed sessions or finished worksheets. Progress means the student can explain the idea, apply it accurately, use it with less support, and transfer it to schoolwork or unfamiliar questions. Skill-level tracking makes improvement visible and helps us identify where the plan should continue or change."
+    },
+    {
+      q: "Which students and courses do you support?",
+      a: "Infinite Solutions focuses on Ontario students in Grades 7–12. Support is tailored to the student's grade, current course, prerequisite knowledge, upcoming assessments, and longer-term academic goals."
+    },
+    {
+      q: "Can we begin with September Math Ready?",
+      a: "Yes. September Math Ready is a focused starting option for families who want to check prerequisite skills and establish priorities before the school year. It can stand alone or become the first step in an ongoing private or small-group tutoring plan."
     },
     {
       q: "Is HST included in the prices shown?",
@@ -361,28 +369,28 @@ const Landing = () => {
             {[
               {
                 title: "Catch Up",
-                description: "Close the specific gaps making today's work harder, then rebuild confidence one skill at a time.",
+                description: "We trace the current struggle back to the missing foundation, rebuild it in the right order, and verify that your child can use the skill without being led through every step.",
                 photo: catchUpPhoto,
                 photoAlt: "Student rebuilding core math skills with a tutor",
                 cta: "Find the gaps",
-                points: ["Find the gap behind the struggle", "Get a clear explanation", "Build confidence through focused practice"]
+                points: ["Diagnose the skill behind the low mark", "Teach the missing prerequisite clearly", "Practise until support can be reduced", "Track the result and adjust the plan"]
               },
               {
                 title: "Start Strong",
-                description: "Enter the next course prepared, confident, and clear on the skills that matter most.",
+                description: "We compare your child's current skills with what the next course will demand, strengthen the highest-priority areas first, and create a measured starting point for the term.",
                 photo: startStrongPhoto,
                 photoAlt: "Student preparing for math with personalized support",
                 photoPosition: "object-[center_30%]",
                 cta: "Check course readiness",
-                points: ["Check course readiness", "Strengthen priority skills", "Start with a clear plan"]
+                points: ["Check readiness against course expectations", "Prioritize the gaps most likely to matter", "Teach and practise before the pressure rises", "Begin with a clear plan and baseline"]
               },
               {
                 title: "Get Ahead",
-                description: "Turn a strong foundation into greater independence, deeper problem-solving, and forward momentum.",
+                description: "We confirm the foundation is secure, introduce meaningful challenge, and measure mastery before moving forward so advancement creates independence—not shallow acceleration.",
                 photo: getAheadPhoto,
                 photoAlt: "Student exploring advanced math work with a tutor",
                 cta: "Plan the next step",
-                points: ["Preview upcoming concepts", "Strengthen problem-solving", "Prepare for a harder course"]
+                points: ["Confirm core skills are genuinely secure", "Preview upcoming concepts with purpose", "Develop deeper problem-solving strategies", "Increase challenge as mastery becomes visible"]
               }
             ].map((option, i) => (
               <article key={option.title} className={`premium-card overflow-hidden rounded-2xl flex flex-col ${i === 1 ? "md:-translate-y-2 border-blue-200" : ""}`}>
@@ -896,9 +904,9 @@ const Landing = () => {
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              {title: "See which skills are improving and where support will make the biggest difference next.", label: "Progress Dashboard", image: appHomeScreenshot},
-              {title: "Give your child one clear next step, so practice feels purposeful instead of overwhelming.", label: "Personalized Practice", image: appHomeworkScreenshot},
-              {title: "Turn visible wins into motivation, stronger habits, and momentum that carries into class.", label: "Skill Mastery", image: appMasteryScreenshot}
+              {title: "The dashboard turns tutoring progress into something your family can actually see. Instead of wondering what happened during a session, you can identify which skills are improving, which ones still need attention, and where tutoring will make the greatest difference next.", label: "Progress Dashboard", image: appHomeScreenshot},
+              {title: "Personalized practice gives your child a focused next step connected to the skills being taught. This replaces random worksheets with purposeful work, reduces overwhelm, and gives the tutor useful evidence of what your child can complete independently between sessions.", label: "Personalized Practice", image: appHomeworkScreenshot},
+              {title: "Skill mastery shows progress at the level that matters: what your child can now understand and apply. Visible wins build motivation, while incomplete skills tell us when to adjust the explanation, add practice, or delay the next challenge until the foundation is secure.", label: "Skill Mastery", image: appMasteryScreenshot}
             ].map((item, i) => (
               <div key={item.label} className="space-y-5">
                 <div className="premium-card overflow-hidden rounded-2xl bg-gradient-to-b from-blue-50 to-white p-4">
