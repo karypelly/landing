@@ -237,7 +237,7 @@ const Landing = () => {
                 About Kary
               </a>
               <a 
-                href="#readiness" 
+                href="https://readiness.privatetutoring.ca"
                 className="block py-2 text-gray-900 hover:text-blue-600 font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -258,7 +258,7 @@ const Landing = () => {
                 📞 Call Kary
               </a>
               <a 
-                href="/readiness" 
+                href="https://readiness.privatetutoring.ca"
                 className="block w-full px-4 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -281,7 +281,7 @@ const Landing = () => {
               <p className="text-xl md:text-2xl text-slate-600 mb-6 leading-relaxed">For Ontario students in Grades 7-12 who need to catch up, start strong, or get ahead.</p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">We find the specific skill gaps behind the grade, focus practice where it matters most, and build a clear path into the new school year.</p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="/readiness" className="px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 text-center shadow-lg shadow-blue-700/15 transition-all">Find their skill gaps</a>
+                <a href="https://readiness.privatetutoring.ca" className="px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 text-center shadow-lg shadow-blue-700/15 transition-all">Find their skill gaps</a>
                 <a href="#options" className="px-6 py-3.5 border border-slate-300 bg-white/80 text-gray-900 font-medium rounded-lg hover:border-blue-300 hover:bg-white text-center transition-colors">See support options</a>
               </div>
             </div>
@@ -411,7 +411,7 @@ const Landing = () => {
               <p>More worksheets will not solve a problem that has not been identified. The first step is to find the exact skill causing friction, then give your child the right explanation, practice, and accountability.</p>
               <p className="font-semibold text-gray-900">That turns tutoring from homework help into a focused plan for progress.</p>
             </div>
-            <a href="/readiness" className="mt-9 inline-block px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 shadow-lg shadow-blue-700/15 transition-colors">Find the starting point</a>
+            <a href="https://readiness.privatetutoring.ca" className="mt-9 inline-block px-6 py-3.5 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 shadow-lg shadow-blue-700/15 transition-colors">Find the starting point</a>
           </div>
         </div>
       </section>
@@ -1106,7 +1106,7 @@ const Landing = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a href="/book" className="px-6 py-3 bg-white text-blue-600 font-medium rounded hover:bg-gray-50">Book their readiness session</a>
-            <a href="/readiness" className="px-6 py-3 border-2 border-white text-white font-medium rounded hover:bg-blue-600">Find their starting point</a>
+            <a href="https://readiness.privatetutoring.ca" className="px-6 py-3 border-2 border-white text-white font-medium rounded hover:bg-blue-600">Find their starting point</a>
           </div>
 
           <p className="text-blue-100"><a href="/book" className="underline hover:text-white">Already a current client? Book your next session →</a></p>
